@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-trade-analysis/static/css/main.37fb9343.css",
+    "main.js": "/my-trade-analysis/static/js/main.65655f9e.js",
+    "index.html": "/my-trade-analysis/index.html",
+    "main.37fb9343.css.map": "/my-trade-analysis/static/css/main.37fb9343.css.map",
+    "main.65655f9e.js.map": "/my-trade-analysis/static/js/main.65655f9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37fb9343.css",
+    "static/js/main.65655f9e.js"
+  ]
+}
