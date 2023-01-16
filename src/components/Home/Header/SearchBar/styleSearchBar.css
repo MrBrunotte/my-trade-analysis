@@ -1,0 +1,30 @@
+.searchBar-wrapper {
+    background-color: #9b9b9b;
+    width: fit-content;
+    margin: 2.5rem auto 4rem auto;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.searchBar-wrapper form {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar-wrapper input {
+    background-color: #9b9b9b;
+    outline: none;
+    border: none;
+}
+.searchBar-wrapper span {
+    padding-right: .5rem;
+    cursor: pointer;
+}
+.searchBar-wrapper button {
+    outline: none;
+    border: 1px solid black;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    background-color: #9b9b9b;
+    color: white
+}

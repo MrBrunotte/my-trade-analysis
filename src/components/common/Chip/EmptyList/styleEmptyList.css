@@ -1,0 +1,17 @@
+/*.emptyList-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.emptyList-wrapper img {
+    max-width: 250px;
+    width: 100%;
+}
+*/
+.emptyList-wrapper {
+    margin: 10% auto;
+    text-align: center;
+}
+.emptyList-wrapper p {
+    color: #caa532;
+}

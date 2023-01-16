@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+
+html {
+  /* 12px = 0.75rem, 14px = 0.875rem */
+  font-size: .75rem;
+}
+html::-webkit-scrollbar {
+  width: 2vh;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #caa532;
+}
+html::-webkit-scrollbar-track {
+  background-color: #9b9b9b;
+}
+body {
+  margin: 0;
+  padding: 0 5vw;
+  background-color: #222529 !important;
+  color: white !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  font-weight: 400;
+  font-size: 1.15rem;
+  color:#caa532 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  font-size: 1.375rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.myh1, .myh2, .myh3, .myh4, .myh5, .myh6 {
+  font-family: 'Notable', sans-serif;
+  color: #9b9b9b;
+  margin: 1vh 0vw 2vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myh1 { font-size: 4.5rem; text-align: center; text-transform: uppercase; color: #caa532; }
+.myh2 { font-size: 2rem; }
+.myh3 { font-size: 1.75rem; }
+.myh4 { font-size: 1.50rem; }
+.myh5 { font-size: 1.25rem; }
+.myh6 { font-size: 1rem; }
+.myUppercase {
+  text-transform: uppercase;
+}
+.containerMargin {
+  margin: 5rem;
+}
+.containerHeader {
+  margin: 10px 0 30px;
+}
+button, input {
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.myUppercase {
+  text-transform: uppercase;
+}
+.chartImage {
+width: 100%;
+display: flex;
+align-items: center;
+padding: 2rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* From video*/
+.container {
+  max-width: 1600px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem 0;
 }
