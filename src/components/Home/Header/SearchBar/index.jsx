@@ -7,7 +7,7 @@ const SearchBar = ({value, handleSearchKey, clearSearch, formSubmit}) => (
         <input 
         type='text'
         onChange={handleSearchKey} 
-        placeholder='Type instrument category' 
+        placeholder='Type instrument ES/MES/6E etc...' 
         value={value}
         />
         {value && <span onClick={clearSearch}>X</span>}
