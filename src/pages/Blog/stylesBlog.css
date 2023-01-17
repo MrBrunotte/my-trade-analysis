@@ -31,10 +31,54 @@
 .blog-subCategory >div {
     margin: 1rem;
 }
-.blog-description {
-    padding: 1rem;
+.blog-descriptions {
+    color: #a9a9a9;
+}
+.tradeText {
+    padding: 0 1rem;
     margin-top: 1.5rem;
+    font-size: 1.3rem;
+    color: #a9a9a9;
+}
+.myh4, .summary {
+    color: #caa532;
+}
+.myh4{
+    margin: 30px 0 5px;
+}
+.summary {
+    margin: 5px 0 30px;
 }
 .center {
     text-align: center;
 }
+.myListItem {
+    color: #caa532;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+.numOfTrades::before {content: 'Number or trades: '; color: #a9a9a9; }
+.totalPoints::before {content: 'Points: '; color: #a9a9a9; }
+.totalTicks::before {content: 'Ticks: '; color: #a9a9a9; }
+.winners::before {content: 'Win: '; color: #a9a9a9; }
+.losers::before {content: 'Loss: '; color: #a9a9a9; }
+.breakEven::before {content: 'Break-even: '; color: #a9a9a9; }
+.NumOfTarget::before {content: 'Number of target trades: '; color: #a9a9a9; }
+/* .trade1::before { content: 'Trade 1: '; color: #caa532;}
+.trade2::before { content: 'Trade 2: '; color: #caa532;}
+.trade3::before { content: 'Trade 3: '; color: #caa532;}
+.trade4::before { content: 'Trade 4: '; color: #caa532;}
+.trade5::before { content: 'Trade 5: '; color: #caa532;}
+.trade6::before { content: 'Trade 6: '; color: #caa532;}
+.trade7::before { content: 'Trade 7: '; color: #caa532;}
+.trade8::before { content: 'Trade 8: '; color: #caa532;}
+.trade9::before { content: 'Trade 9: '; color: #caa532;} 
+.trade10::before { content: 'Trade 9: '; color: #caa532;} 
+.trade11::before { content: 'Trade 9: '; color: #caa532;} 
+.trade12::before { content: 'Trade 9: '; color: #caa532;} 
+.trade13::before { content: 'Trade 9: '; color: #caa532;} 
+.trade14::before { content: 'Trade 9: '; color: #caa532;} 
+.trade15::before { content: 'Trade 9: '; color: #caa532;} 
+.trade16::before { content: 'Trade 9: '; color: #caa532;} 
+.trade17::before { content: 'Trade 9: '; color: #caa532;} 
+*/

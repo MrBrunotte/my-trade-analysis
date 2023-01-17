@@ -15,10 +15,9 @@
 }
 .blogItem-description {
     position: relative;
-    max-height: 50px;
+    max-height: 85px;
     overflow: hidden;
     padding-right: 0.6rem;
-    padding-bottom: 3rem;
     font-size: 1rem;
     color: #a9a9a9;
   }
