@@ -36,18 +36,16 @@
 }
 .tradeText {
     padding: 0 1rem;
-    margin-top: 1.5rem;
+    margin-top: 0;
     font-size: 1.3rem;
     color: #a9a9a9;
-}
-.myh4, .summary {
-    color: #caa532;
 }
 .myh4{
     margin: 30px 0 5px;
 }
 .summary {
     margin: 5px 0 30px;
+    color: #a9a9a9;
 }
 .center {
     text-align: center;
@@ -57,6 +55,9 @@
     font-size: 1.5rem;
     list-style-type: none;
 }
+.myYellow { color:#caa532; }
+
+
 .numOfTrades::before {content: 'Number or trades: '; color: #a9a9a9; }
 .totalPoints::before {content: 'Points: '; color: #a9a9a9; }
 .totalTicks::before {content: 'Ticks: '; color: #a9a9a9; }
@@ -64,6 +65,7 @@
 .losers::before {content: 'Loss: '; color: #a9a9a9; }
 .breakEven::before {content: 'Break-even: '; color: #a9a9a9; }
 .NumOfTarget::before {content: 'Number of target trades: '; color: #a9a9a9; }
+
 /* .trade1::before { content: 'Trade 1: '; color: #caa532;}
 .trade2::before { content: 'Trade 2: '; color: #caa532;}
 .trade3::before { content: 'Trade 3: '; color: #caa532;}

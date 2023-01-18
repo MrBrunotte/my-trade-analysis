@@ -1,4 +1,14 @@
-# Update 
+# build
+
+## `npm run build`
+
+# Start locally
+
+## `npm start`
+
+# Deploy to firebase 
+
+## `firebase deploy`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
