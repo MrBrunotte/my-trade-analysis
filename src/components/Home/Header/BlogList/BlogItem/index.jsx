@@ -37,6 +37,7 @@ const BlogItem = ({blog:{
       <Chip label={category} />
       <Link className='' to={`/blog/${id}`}>
       <h3 className='myh3'>{title}</h3>
+      <h5 className='tradingDate myh5'>{tradingDate}</h5>
       <p className='blogItem-description'>{tradeDescription}</p>
       <h5>Read more<span> &#8594;</span></h5>
       {/*<h4 className='myh6'>{summary}</h4>

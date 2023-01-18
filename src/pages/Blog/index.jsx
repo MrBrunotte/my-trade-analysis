@@ -26,7 +26,7 @@ const Blog = () => {
       {blog ? (
         <div className='blog-wrapper'>
           <header>
-            <p className='tradingDate'>Trading date: {blog.tradingDate}</p>
+            <h4 className='tradingDate myh4'>Trading date: {blog.tradingDate}</h4>
             <h1 className='individualBlogH1'>{blog.title}</h1>
             <div className='blog-subCategory'>
               {blog.subCategory.map((category, i) => (
