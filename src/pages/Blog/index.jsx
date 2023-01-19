@@ -37,20 +37,24 @@ const Blog = () => {
             </div>
           </header>
           <img src={blog.instrumentCoverImage} alt='cover' />
-          <div className='center'>
+
           <h1 className='myh1'>Trade summary</h1>
-            <ul>
-              <li className='myListItem numOfTrades'>{blog.numOfTrades}</li>
-              <li className='myListItem totalPoints'>{blog.totalPoints}</li>
-              <li className='myListItem totalTicks'>{blog.totalTicks}</li>
-              <li className='myListItem winners'>{blog.winners}</li>
-              <li className='myListItem losers'>{blog.losers}</li>
-              <li className='myListItem breakEven'>{blog.breakEven}</li>
-              <li className='myListItem NumOfTarget'>{blog.NumOfTarget}</li>
-            </ul>
+          <div className='tradeStats'>
+          <hr></hr>
+            <div className='myListItem numOfTrades'>{blog.numOfTrades}</div>
+            <div className='myListItem totalPoints'>{blog.totalPoints}</div>
+            <div className='myListItem totalTicks'>{blog.totalTicks}</div>
+            <div className='myListItem winners'>{blog.winners}</div>
+            <div className='myListItem losers'>{blog.losers}</div>
+            <div className='myListItem breakEven'>{blog.breakEven}</div>
+            <div className='myListItem NumOfTarget'>{blog.NumOfTarget}</div>
+            <hr></hr>
           </div>
-          <br></br>
+
+          <h2 className='myh2 myYellow'>Summary</h2>
+          <h3 className='myh3 myWhite'>Key points to take away from this session...</h3>
           <p className='summary'>{blog.summary}</p>
+          <h2 className='individualTA'>Individual trade analysis</h2>
           <h4 className='myh4 myYellow'>{blog.trade1Header}</h4>
           <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade1}</h5>
           <p className='tradeText trade1'>{blog.trade1}</p>

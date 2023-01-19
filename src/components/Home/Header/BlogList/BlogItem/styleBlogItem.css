@@ -17,7 +17,7 @@
 }
 .blogItem-description {
     position: relative;
-    max-height: 85px;
+    height: 85px;
     overflow: hidden;
     padding-right: 0.6rem;
     font-size: 1rem;
@@ -65,3 +65,8 @@
     color: #a9a9a9;
     font-weight: 600;
   }
+  .titleSection {
+    display: flex;
+    align-items: flex-end;
+  }
+  

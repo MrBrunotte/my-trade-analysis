@@ -34,11 +34,30 @@
 .blog-descriptions {
     color: #a9a9a9;
 }
+.tradeStats {
+    margin: 10px 0 50px;
+}
 .tradeText {
     padding: 0 1rem;
     margin-top: 0;
     font-size: 1.3rem;
     color: #a9a9a9;
+}
+.individualTA {
+    font-size: 3rem;
+    text-align: start;
+    text-transform: uppercase;
+    color: #caa532;
+}
+.myWhite {
+    color: white;
+}
+.myh1 {
+    margin-top: 50px;
+    text-align: start;
+}
+.myh2 {
+    font-size: 3.5rem;
 }
 .myh4{
     margin: 30px 0 5px;
@@ -57,12 +76,13 @@
 }
 .myYellow { color:#caa532; }
 
-
 .numOfTrades::before {content: 'Number or trades: '; color: #a9a9a9; }
 .totalPoints::before {content: 'Points: '; color: #a9a9a9; }
 .totalTicks::before {content: 'Ticks: '; color: #a9a9a9; }
 .winners::before {content: 'Win: '; color: #a9a9a9; }
+.winners { color: lime;}
 .losers::before {content: 'Loss: '; color: #a9a9a9; }
+.losers {color: red; }
 .breakEven::before {content: 'Break-even: '; color: #a9a9a9; }
 .NumOfTarget::before {content: 'Number of target trades: '; color: #a9a9a9; }
 
@@ -84,3 +104,42 @@
 .trade16::before { content: 'Trade 9: '; color: #caa532;} 
 .trade17::before { content: 'Trade 9: '; color: #caa532;} 
 */
+
+@media (max-width: 600px) {
+    .blogList-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogItem-wrapper {
+        max-height: 570px;
+    }
+    .individualBlogH1 {
+        font-size: 1.5rem;
+    }
+    .individualTA {
+        font-size: 1.5rem;
+    }
+    .myh1 {
+        margin-top: 20px;
+        text-align: start;
+    }
+    .myh2 {
+        font-size: 1.9rem;
+    }
+    .myh4 {
+        font-size: 1rem;
+    }
+    .myh5 {
+        font-size: 1.1rem;
+    }
+    .summary,
+    .myListItem,
+    .tradeText {
+        font-size: 1rem;
+    }
+    .chip {
+        display: none;
+    }
+    .tradeStats {
+        margin-bottom: 20px;
+    }
+}

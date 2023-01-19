@@ -12,4 +12,23 @@
     .blogList-wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
+    .blogItem-wrapper {
+        max-height: 570px;
+    }
+    .hideChip,
+    .searchBar-wrapper {
+        display:none;
+    }
+    .myh1 {
+        font-size: 1.75rem;
+    }
+    .myh2 {
+        font-size: 1.4rem;
+    }
+    .myh3 {
+        font-size: 1.2rem;
+    }
+    .individualBlogH1 {
+        font-size: 1.75rem;
+    }
 }

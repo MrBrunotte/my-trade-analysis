@@ -33,10 +33,12 @@ const BlogItem = ({blog:{
  }
 }) => (
     <div className='blogItem-wrapper'>
+      <div className='titleSection'>
+        <h3 className='myh3'>{title}</h3>
+          <div className='hideChip'><Chip label={category} /></div>
+      </div>
       <img className='blogItem-cover' src={instrumentCoverImage} alt="Full session pic" />
-      <Chip label={category} />
       <Link className='' to={`/blog/${id}`}>
-      <h3 className='myh3'>{title}</h3>
       <h5 className='tradingDate myh5'>{tradingDate}</h5>
       <p className='blogItem-description'>{tradeDescription}</p>
       <h5>Read more<span> &#8594;</span></h5>
