@@ -23,6 +23,7 @@
     font-size: 1rem;
     color: #a9a9a9;
   }
+  
   /* .blogItem-description::before {
     position: absolute;
     content: '...';
@@ -69,4 +70,10 @@
     display: flex;
     align-items: flex-end;
   }
+  .myh6 { color:#caa532 }
+
+  .readMore:hover, 
+  .blogItem-description:hover,
+  .tradingDate:hover { 
+    font-weight: 500;}
   

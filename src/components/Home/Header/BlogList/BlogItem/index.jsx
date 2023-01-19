@@ -41,17 +41,7 @@ const BlogItem = ({blog:{
       <Link className='' to={`/blog/${id}`}>
       <h5 className='tradingDate myh5'>{tradingDate}</h5>
       <p className='blogItem-description'>{tradeDescription}</p>
-      <h5>Read more<span> &#8594;</span></h5>
-      {/*<h4 className='myh6'>{summary}</h4>
-       <p className='blog-description'>{trade1}</p>
-      <p className='blog-description'>{trade2}</p>
-      <p className='blog-description'>{trade3}</p>
-      <p className='blog-description'>{trade4}</p>
-      <p className='blog-description'>{trade5}</p>
-      <p className='blog-description'>{trade6}</p>
-      <p className='blog-description'>{trade7}</p>
-      <p className='blog-description'>{trade8}</p>
-      <p className='blog-description'>{trade9}</p> */}
+      <h5 className='myh6 readMore'>Read more<span> &#8594;</span></h5>
       </Link>
 
       <footer>

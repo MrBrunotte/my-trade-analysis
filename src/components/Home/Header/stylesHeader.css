@@ -1,6 +1,9 @@
 .home-header {
     text-align: center;
 }
-.home-header h1 {
+.headerH1 {
     color: #caa532;
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase; 
 }
