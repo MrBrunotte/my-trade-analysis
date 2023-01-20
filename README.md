@@ -30,6 +30,7 @@ The current ATM Strategy enters the market with 3 contracts with the Parameter t
 - The BE+ stop strategy sets the stop loss to break-even + 1 when the market reaches +3 ticks, target 1 is closed out at +4 ticks (or with the stop loss at BE+1).
 - Target 2 has a small room for a runner and when the profit is +5 ticks (1.25 points), the stop loss is set at  
 4 ticks (1 point), if the market moves higher the stop loss trails the market by 1 tick until stopped out or we reach the 32 tick (8 points) target for the 2 remaining contracts.
+
 <img
   src="https://github.com/MrBrunotte/my-trade-analysis/blob/master/public/assets/atmBePlus1.jpg"
   alt="ATM Strategy: BE+1"
