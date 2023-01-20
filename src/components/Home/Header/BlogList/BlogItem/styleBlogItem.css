@@ -1,7 +1,6 @@
 .blogItem-wrapper {
     display: flex;
     flex-direction: column;
-    max-height: 290px;
 }
 .blogItem-cover {
     width: 100%;
@@ -64,7 +63,7 @@
     align-items: flex-end;
   }
   .myh6 { color:#caa532 }
-
+  .myhr { color:#caa532 }
   .readMore:hover, 
   .blogItem-description:hover { 
     font-weight: 500;}

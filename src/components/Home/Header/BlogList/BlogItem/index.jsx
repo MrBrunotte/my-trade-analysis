@@ -28,14 +28,14 @@ const BlogItem = ({blog:{
 
       <footer>
         <Link className='blogItem-link' to={`/blog/${id}`}>
-        <div className='blogItem-author'>
-          <img src={authorAvatar} alt="avatar" />
-          <div>
-            <h6 className='myh6 avatarTraderName'>{authorName}</h6>
-            <p>{tradingDate}</p>
+          <div className='blogItem-author'>
+            <img src={authorAvatar} alt="avatar" />
+            <div>
+              <h6 className='myh6 avatarTraderName'>{authorName}</h6>
+              <p>{tradingDate}</p>
+            </div>
           </div>
-        </div>
-       
+          <hr className='myhr'></hr>
         </Link></footer>
     </div>
   );

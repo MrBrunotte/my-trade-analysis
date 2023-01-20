@@ -1,12 +1,193 @@
 export const blogList = [
   {
+    id: 5,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/ES/20012023_Friday_ES0323.jpg',
+    tradingDate: 'Friday January 20, 2023',
+    title: 'ES 03-23 | 15:15-17:15 | +3 points ',
+    category: 'ES',
+    subCategory: ['ES 03-23'],
+
+    numOfTrades: "7",
+    totalPoints: "3",
+    totalTicks: "12",
+    totalPips: "-",
+    winners: "4 (16 points)",
+    losers: "2 (14 points)",
+    breakEven: "1",
+    NumOfTarget: "4 out of 7",
+
+    tradeDescription: "Second session of the day today! I was up from the London session this morning and I traded both the ES and the forex 6E session. I think it is best to only focus on one instrument now in the beginning! The market made a strong bull move at the start of the US session so my bias was up from the start of this session. The session moved up but in a slow grinding fashion which makes it a little bit hard to trade now that I just have started.",
+    summary: "The session started with a big bull bar up so my bias for the session was up. The market grinded slowly which made it a little bit hard to enter at the correct level. I did 7 trades and only one got the full stop. It felt good today, and I felt comfortable taking the trades and I was happy to end the session and day with a small profit.",
+
+    trade1Header:"Trade 1 long, Target (+1 point)",
+    reasonToTakeTrade1: "Reason to enter: A pullback after strong open by the bulls, I entered after the failure by the bears to push the pullback lower. ",
+    trade1: "Reason to enter: A pullback after strong open by the bulls, I entered after the failure by the bears to push the pullback lower. The entry was good, low risk and high probability. The bulls made such a strong move up, so I was expecting more up and at least a second leg up (which we got).",
+
+    trade2Header:"Trade 2 long, Target (+1 point)",
+    reasonToTakeTrade2: "Reason to enter: Second leg in pullback and I was betting on a new test of the previous bars high and sideways market after two legs up by the bulls.",
+    trade2: "I entered a little bit early and was a little lucky with this trade, context was ok for the trade and the market was still in “Always in long”.",
+
+    trade3Header:"Trade 3 long, Stopped out (-6 points) ",
+    reasonToTakeTrade3: "Reason to enter: Bottom of a sideways market at EMA and failure by the bears to close lower on previous bar.",
+    trade3: "I entered on a red candle with a limit order entry, this was a bad trade and I should have waited for more information before trying to enter. The context was for a choppy market (which is a risky market). I should NEVER enter long on a red bar like this! I got stopped out because this was a bad trade, I moved my stop up which was good though!",
+
+    trade4Header:"Trade 4, long, full stop (-2 points)",
+    reasonToTakeTrade4: "Reason to enter: five consecutive bull bars and breakout after grinding pullback down.",
+    trade4: "I should have waited and the sign for this was all the tails on top of the bull bars before my entry! I should have waited for the pullback and test of EMA before trying to enter! I lost this trade because of inexperience, and I was a little bit greedy and didn’t want to miss the rally up! Full stop which put me in red numbers after I have been in profit for the whole day.",
+
+    trade5Header: "Trade 5, long, Target (+1 point)",
+    reasonToTakeTrade5: "Reason to enter: Strong bull bar and second leg up after the bears failed to push the market down.",
+    trade5: "A quick and easy trade, I was expecting a vacuum up to the old high where I had my 1 point target. A good trade!",
+
+    trade6Header:"Trade 6, long, Break-even (+0,25 points)",
+    reasonToTakeTrade6: "Reason to enter: Acceptance by the bulls above previous high, I was expecting a continuation after the grinding pullback and the bull breakout above. ",
+    trade6: "The market didn’t move quickly so I decided to play safe and go break-even because I didn’t want to risk another test lower. Good decision, I should have re-entered four bars later!  ",
+
+    trade7Header:"Trade 7, long, Target (+1 point)",
+    reasonToTakeTrade7: "Reason to enter: Pullback after bear breakout and I was betting on buyers above the small bear bar that couldn’t push the market lower.",
+    trade7: "The market gave a bull breakout after another higher sideways stall, I entered after the pullback failed for a test of the breakout high. My stop was below the small bear bar, so the risk was good.",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
+    id: 4,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/6E/20012023_Friday2_6E0223.jpg',
+    tradingDate: 'Friday, January 20, 2023 (London afternoon session)',
+    title: 'ES 03-23 | 15:15-17:15 | -13 pips ',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "-",
+    totalTicks: "-13",
+    winners: "0",
+    losers: "-2 (13 pips)",
+    breakEven: "0",
+    NumOfTarget: "0 out of 2",
+
+    tradeDescription: "This is the second session of today, Friday January 20, I traded both the 6E and the ES simultaneously, the big spike bar at 15:30 distracted me and it was hard to make good trading decisions. I entered late in the second leg down and I was early on my second trade.",
+    summary: "The afternoon session started with a huge bull bar shooting up at 15:30, this is a distraction for my read and I missed some good trade opportunities (see arrows). Nice price action, but I need more chart time to be able to take more and better trades, but it feels good and the market moves nicely. I will be able to take some of these trades with experience.",
+
+    trade1Header:"Trade 3 short, stopped out, -6 pips",
+    reasonToTakeTrade1: "Reason to enter: I was blinded from the strong bear leg down and thought the market would test the big bull bar breakout area below. ",
+    trade1: "The entry bar had a large wick on top and closed on it’s low before the market turned and made a reversal. I moved my stop down from -8 pips to -6 pips which was good, I got 1 pips slippage on my stop and lost 7 pips on one contract and 6 pips each on the second two. Late entry in the bear legs so a low probability entry! I need a bull pullback or failed pullback before entering in these circumstances.",
+
+    trade2Header:"Trade 4 Long, stopped out, -6 pips",
+    reasonToTakeTrade2: "Reason to enter: Failed follow through by the bears to close below the small double bottom after a strong pullback by the bulls.",
+    trade2: "I chased the entry a little bit, I entered a the high of the doji, I move my stops up but got stopped out. This was an early entry and I should have waited for more information after the earlier strong bear move down.  Two bars later would have been a good entry point!",
+    
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
     id: 3,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
     
     instrumentCoverImage: '/assets/images/6E/20012023_Friday_6E.jpg',
-    tradingDate: 'Friday January 20, 2023',
-    title: '6E | 10:00-11:30 | +16 ticks ',
+    tradingDate: 'Friday January 20, 2023 (London morning session)',
+    title: '6E | 10:00-11:30 | +16 pips ',
     category: '6E',
     subCategory: ['6E 03-23'],
 

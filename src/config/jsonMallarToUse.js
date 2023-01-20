@@ -14,6 +14,7 @@ export const blogList = [
       numOfTrades: "4",
       totalPoints: "-8",
       totalTicks: "-16",
+      totalPips: "-",
       winners: "2 (2 points)",
       losers: "-2 (4 points)",
       breakEven: "0",
@@ -28,8 +29,7 @@ export const blogList = [
   
       trade2Header:"",
       reasonToTakeTrade2: "",
-      trade2: "",
-      
+  
       trade3Header:"",
       reasonToTakeTrade3: "",
       trade3: "",
