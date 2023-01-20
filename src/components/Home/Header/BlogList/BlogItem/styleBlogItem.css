@@ -66,7 +66,6 @@
   .myh6 { color:#caa532 }
 
   .readMore:hover, 
-  .blogItem-description:hover,
-  .tradingDate:hover { 
+  .blogItem-description:hover { 
     font-weight: 500;}
   

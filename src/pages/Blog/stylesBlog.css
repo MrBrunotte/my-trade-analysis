@@ -5,10 +5,12 @@
 .blog-goBack {
     display: block;
     font-size: 2rem;;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 2rem;
 }
 .blog-goBack span { color: rgb(156, 155, 155);}
+.blog-goBack span:hover { font-weight: 500;}
+
 .blog-wrapper header {
     text-align: center;
 }
