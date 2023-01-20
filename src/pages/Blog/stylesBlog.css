@@ -78,6 +78,7 @@
 .numOfTrades::before {content: 'Number or trades: '; color: #a9a9a9; }
 .totalPoints::before {content: 'Points: '; color: #a9a9a9; }
 .totalTicks::before {content: 'Ticks: '; color: #a9a9a9; }
+.totalPips::before {content: 'Pips: '; color: #a9a9a9; }
 .winners::before {content: 'Win: '; color: #a9a9a9; }
 .winners { color: lime;}
 .losers::before {content: 'Loss: '; color: #a9a9a9; }

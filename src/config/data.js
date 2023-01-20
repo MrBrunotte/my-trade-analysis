@@ -14,7 +14,7 @@ export const blogList = [
     totalPoints: "4,25",
     totalTicks: "17",
     winners: "4 (4 points)",
-    losers: "2 (2,75 points)",
+    losers: "2 (-2,75 points)",
     breakEven: "1 (0,25 points)",
     NumOfTarget: "4 out of 7",
 
@@ -94,7 +94,7 @@ export const blogList = [
     totalPoints: "-8",
     totalTicks: "-16",
     winners: "2 (2 points)",
-    losers: "-2 (4 points)",
+    losers: "2 (-4 points)",
     breakEven: "0",
     NumOfTarget: "2 out of 4",
 
@@ -115,7 +115,7 @@ export const blogList = [
     trade4Header:"Trade 4, Long, full stop (-2 points)",
     reasonToTakeTrade4: "Reason to enter: Strong leg down in sideways market",
     trade4: "Another sell at the bottom of the sideways market! Strong leg down but I may not sell at the bottom of the sideways market, I need to get more direction before trading.",
-    
+
     trade5Header: "",
     reasonToTakeTrade5: "",
     trade5: "",
@@ -152,6 +152,97 @@ export const blogList = [
     trade16Header:"",
     reasonToTakeTrade16: "",
     trade16: "",
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
+    id: 3,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/6E/20012023_Friday_6E.jpg',
+    tradingDate: 'Friday January 20, 2023',
+    title: '6E | 10:00-11:30 | +16 ticks ',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "1.8",
+    totalTicks: "-",
+    totalPips: "+16",
+    winners: "2",
+    losers: "0",
+    breakEven: "0",
+    NumOfTarget: "2 out of 2",
+
+    tradeDescription: "First 6E (forex futures) session. I traded the early London session before lunch, I got two trades that hit target. I used my three contract scalping strategy and my target for each trade was $150. The early London session was quite slow which was good for me, I was able to think over my entries and did not have to rush into them. I missed an opportunity at the end of my session.",
+    summary: "Morning London session, I trade the 6E market (forex futures). The market was in a bear trend after making the high of the day earlier. I took two trades that each made target without any problem. The market was quite slow and this makes it easier to analyse the market better. I’m happy with my trades and I had good reasons for the entries. 2 winners, 0 losers, and 0 break-even trades, good session! I missed a trade opportunity around 11:24, but I hesitated because 7 out of 8 bars were bull bars. I was thinking of entering short for a test of the EMA, hesitated and missed the opportunity.",
+
+    trade1Header:"Trade 1 short, hit +8-pip target",
+    reasonToTakeTrade1: "Reason to enter: Rejection at previous resistance levels (swing highs) and a bull flag after a wedge (3 pushes up). ",
+    trade1: "I did not enter early and I waited for failure by the bulls to push the market up, I entered with limit orders and waited to get filled. My stop loss was one pip above the tails so I had a R:R of 1:2 on this trade. The scalp too 2:57 minutes and was not even close to my stop. I set my target to close the EMA gap in a pullback in a bear trend, price was vacuumed down to EMA.",
+
+    trade2Header:"Trade 2, short, hit +8-pip target",
+    reasonToTakeTrade2: "Reason to enter: Early entry, vacuum into previous strong selling.",
+    trade2: "I entered a little early and should have waited for more information before taking the trade (see this in hindsight) I took the trade because I was expecting another bear leg down and there was a buy climax into previous strong selling and up to EMA. The R:R was 5:8 so almost a 1:2 risk/reward. My target was one pip above the open of the bull climax bar.",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
     trade17Header:"",
     reasonToTakeTrade17: "",
     trade17: "",

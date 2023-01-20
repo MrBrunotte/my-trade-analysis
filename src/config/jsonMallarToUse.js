@@ -28,7 +28,8 @@ export const blogList = [
   
       trade2Header:"",
       reasonToTakeTrade2: "",
-  
+      trade2: "",
+      
       trade3Header:"",
       reasonToTakeTrade3: "",
       trade3: "",

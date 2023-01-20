@@ -44,6 +44,7 @@ const Blog = () => {
             <div className='myListItem numOfTrades'>{blog.numOfTrades}</div>
             <div className='myListItem totalPoints'>{blog.totalPoints}</div>
             <div className='myListItem totalTicks'>{blog.totalTicks}</div>
+            <div className='myListItem totalPips'>{blog.totalPips}</div>
             <div className='myListItem winners'>{blog.winners}</div>
             <div className='myListItem losers'>{blog.losers}</div>
             <div className='myListItem breakEven'>{blog.breakEven}</div>
