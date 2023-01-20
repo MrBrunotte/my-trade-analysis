@@ -24,13 +24,6 @@
     color: #a9a9a9;
   }
   
-  /* .blogItem-description::before {
-    position: absolute;
-    content: '...';
-    bottom: 0;
-    right: 0;
-  } */
-  
   .blogItem-wrap footer {
     display: flex;
     align-items: center;

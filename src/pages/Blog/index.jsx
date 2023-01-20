@@ -21,7 +21,7 @@ const Blog = () => {
   return (
     <>
       <Link className='blog-goBack center' to='/'>
-        <span> &#8592;</span> <span>Go Back</span>
+        <span> &#8592; Back to all trades...</span>
       </Link>
       {blog ? (
         <div className='blog-wrapper'>
@@ -108,7 +108,7 @@ const Blog = () => {
           <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade17}</h5>
           <p className='tradeText trade17'>{blog.trade17}</p>
           <Link className='blog-goBack center' to='/'>
-            <span> &#8592;</span> <span>Go Back</span>
+            <span> &#8592; Back to all trades...</span>
           </Link>
         </div>
       ) : (

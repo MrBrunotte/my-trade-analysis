@@ -4,9 +4,11 @@
 }
 .blog-goBack {
     display: block;
-    font-weight: 500;
+    font-size: 2rem;;
+    font-weight: 900;
     margin-bottom: 2rem;
 }
+.blog-goBack span { color: rgb(156, 155, 155);}
 .blog-wrapper header {
     text-align: center;
 }
