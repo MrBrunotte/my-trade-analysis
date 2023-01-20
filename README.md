@@ -12,6 +12,8 @@ I am only trading futures and mainly indices and some currency. My main focus li
 My trading strategy is to scalp the ES for 1 point using my custom built indicators with trailing profit and stop targets. In the strategy I use multiple contracts with an automated ATM strategy for targeting and stop loss.
 
 ### ATM Strategy
+
+(I am not currently using this strategy!)
 The ATM Strategy will be tested and probably changed depending on how it works out.
 
 The current ATM Strategy enters the market with 3 contracts with the Parameter type set to Ticks since I am trading futures, the TIF is set to GTC (Good Till Canceled).
@@ -20,7 +22,7 @@ The current ATM Strategy enters the market with 3 contracts with the Parameter t
 - Target 2 has a profit at 32 ticks (8 points), the initial stop loss is set to 8 ticks (1 point) with a move to BE +1 when the market hits 3 ticks (0.75 points). Target 2 gives a little room for a runner on the last 2 contracts.  
 
 <img
-  src="my-trade-analysis/public/assets/qty3TrailingStop.jpg"
+  src="https://github.com/MrBrunotte/my-trade-analysis/blob/master/public/assets/qty3TrailingStop.jpg"
   alt="ATM Strategy: BE+1"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 500px">
@@ -29,7 +31,7 @@ The current ATM Strategy enters the market with 3 contracts with the Parameter t
 - Target 2 has a small room for a runner and when the profit is +5 ticks (1.25 points), the stop loss is set at  
 4 ticks (1 point), if the market moves higher the stop loss trails the market by 1 tick until stopped out or we reach the 32 tick (8 points) target for the 2 remaining contracts.
 <img
-  src="my-trade-analysis/public/assets/atmBePlus1.jpg"
+  src="https://github.com/MrBrunotte/my-trade-analysis/blob/master/public/assets/atmBePlus1.jpg"
   alt="ATM Strategy: BE+1"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 500px">
