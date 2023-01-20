@@ -1,6 +1,13 @@
 # My Trade Analysis Blog
 
+<img
+  src="https://github.com/MrBrunotte/my-trade-analysis/blob/master/public/assets/images/homepageBlog.jpg"
+  alt="My trade analysis blog"
+  title="Trade analysis blog"
+  style="display: inline-block; margin: 0 auto; max-width: 500px">
 Visit my blog [here](https://mytradeanalysis-252f1.web.app/)
+
+
 
 Welcome to my trade analysis blog, I use this blog to analyze my trades and setups. This blog is only used for my personal trading journey and I post my trades to document my development as a trader.
 
