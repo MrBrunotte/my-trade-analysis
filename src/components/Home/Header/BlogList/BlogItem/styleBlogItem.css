@@ -58,6 +58,7 @@
     color: #a9a9a9;
     font-weight: 600;
   }
+  .avatarTradingDate { color: white !important; font-size: .7rem !important;}
   .titleSection {
     display: flex;
     align-items: flex-end;

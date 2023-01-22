@@ -32,11 +32,12 @@ const BlogItem = ({blog:{
             <img src={authorAvatar} alt="avatar" />
             <div>
               <h6 className='myh6 avatarTraderName'>{authorName}</h6>
-              <p>{tradingDate}</p>
+              <p className='avatarTradingDate'>{tradingDate}</p>
             </div>
           </div>
           <hr className='myhr'></hr>
-        </Link></footer>
+        </Link>
+      </footer>
     </div>
   );
 

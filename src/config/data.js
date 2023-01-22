@@ -30,7 +30,7 @@ export const blogList = [
     reasonToTakeTrade2: "Reason to enter: Second leg in pullback and I was betting on a new test of the previous bars high and sideways market after two legs up by the bulls.",
     trade2: "I entered a little bit early and was a little lucky with this trade, context was ok for the trade and the market was still in “Always in long”.",
 
-    trade3Header:"Trade 3 long, Stopped out (-6 points) ",
+    trade3Header:"Trade 3 long, Stopped out (-1,5 points) ",
     reasonToTakeTrade3: "Reason to enter: Bottom of a sideways market at EMA and failure by the bears to close lower on previous bar.",
     trade3: "I entered on a red candle with a limit order entry, this was a bad trade and I should have waited for more information before trying to enter. The context was for a choppy market (which is a risky market). I should NEVER enter long on a red bar like this! I got stopped out because this was a bad trade, I moved my stop up which was good though!",
 
@@ -201,7 +201,7 @@ export const blogList = [
     NumOfTarget: "2 out of 2",
 
     tradeDescription: "First 6E (forex futures) session. I traded the early London session before lunch, I got two trades that hit target. I used my three contract scalping strategy and my target for each trade was $150. The early London session was quite slow which was good for me, I was able to think over my entries and did not have to rush into them. I missed an opportunity at the end of my session.",
-    summary: "Morning London session, I trade the 6E market (forex futures). The market was in a bear trend after making the high of the day earlier. I took two trades that each made target without any problem. The market was quite slow and this makes it easier to analyse the market better. I’m happy with my trades and I had good reasons for the entries. 2 winners, 0 losers, and 0 break-even trades, good session! I missed a trade opportunity around 11:24, but I hesitated because 7 out of 8 bars were bull bars. I was thinking of entering short for a test of the EMA, hesitated and missed the opportunity.",
+    summary: "Morning London session, I trade the 6E market (forex futures). The market was in a bear trend after making the high of the day earlier. I took two trades that each made target without any problem. The market was quite slow and this makes it easier to analyze the market better. I’m happy with my trades and I had good reasons for the entries. 2 winners, 0 losers, and 0 break-even trades, good session! I missed a trade opportunity around 11:24, but I hesitated because 7 out of 8 bars were bull bars. I was thinking of entering short for a test of the EMA, hesitated and missed the opportunity.",
 
     trade1Header:"Trade 1 short, hit +8-pip target",
     reasonToTakeTrade1: "Reason to enter: Rejection at previous resistance levels (swing highs) and a bull flag after a wedge (3 pushes up). ",
