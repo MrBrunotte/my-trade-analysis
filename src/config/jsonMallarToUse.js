@@ -21,7 +21,10 @@ export const blogList = [
       NumOfTarget: "2 out of 4",
   
       tradeDescription: "",
+
       summary: "",
+
+      significantLesson: "",
   
       trade1Header:"",
       reasonToTakeTrade1: "",
@@ -29,6 +32,7 @@ export const blogList = [
   
       trade2Header:"",
       reasonToTakeTrade2: "",
+      trade2: "",
   
       trade3Header:"",
       reasonToTakeTrade3: "",

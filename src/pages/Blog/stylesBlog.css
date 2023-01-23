@@ -65,7 +65,8 @@
 .myh4{
     margin: 30px 0 5px;
 }
-.summary {
+.summary,
+.significantLesson {
     margin: 5px 0 30px;
     color: #a9a9a9;
 }

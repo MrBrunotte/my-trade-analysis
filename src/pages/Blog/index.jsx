@@ -53,8 +53,9 @@ const Blog = () => {
           </div>
 
           <h2 className='myh2 myYellow'>Summary</h2>
-          <h3 className='myh3 myWhite'>Key points to take away from this session...</h3>
           <p className='summary'>{blog.summary}</p>
+          <h3 className='myh3 myWhite'>Significant lessons from this session</h3>
+          <p className='significantLesson'>{blog.significantLesson}</p>
           <h2 className='individualTA'>Individual trade analysis</h2>
           <h4 className='myh4 myYellow'>{blog.trade1Header}</h4>
           <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade1}</h5>
