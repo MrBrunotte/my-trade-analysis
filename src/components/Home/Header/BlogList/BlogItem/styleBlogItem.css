@@ -14,9 +14,28 @@
     flex: 1;
     color: #caa532;
 }
+.textBody {
+  margin-bottom: 24px;
+  height: 90px;
+}
+.startText {
+  overflow-y: scroll;
+  padding-bottom: 0!important;
+}
+.startText::-webkit-scrollbar {
+  width:1vh;
+}
+.startText::-webkit-scrollbar-thumb {
+background-color: #9b9b9b;
+}
+.startText::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+  }
+.startText::-webkit-scrollbar-track {
+background-color: #222529;
+}
 .blogItem-description {
     position: relative;
-    height: 85px;
     overflow: hidden;
     padding-right: 0.6rem;
     font-size: 1rem;

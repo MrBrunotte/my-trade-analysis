@@ -20,11 +20,13 @@ const BlogItem = ({blog:{
           <div className='hideChip'><Chip label={category} /></div>
       </div>
       <img className='blogItem-cover' src={instrumentCoverImage} alt="Full session pic" />
-      <Link className='' to={`/blog/${id}`}>
-      <h5 className='tradingDate myh5'>{tradingDate}</h5>
-      <p className='blogItem-description'>{tradeDescription}</p>
-      <h5 className='myh6 readMore'>Read more<span> &#8594;</span></h5>
-      </Link>
+        <h5 className='tradingDate myh5'>{tradingDate}</h5>
+      <div className='startText textBody'>
+        <p className='blogItem-description'>{tradeDescription}</p>
+      </div>
+        <Link className='' to={`/blog/${id}`}>
+          <h5 className='myh6 readMore'>Read more<span> &#8594;</span></h5>
+        </Link>
 
       <footer>
         <Link className='blogItem-link' to={`/blog/${id}`}>
