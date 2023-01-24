@@ -87,6 +87,7 @@ background-color: #222529;
   .readMore:hover, 
   .blogItem-description:hover { 
     font-weight: 500;
+    color: whitesmoke;
   }
 
   @media (max-width: 768px) {

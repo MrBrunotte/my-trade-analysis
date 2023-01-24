@@ -1,5 +1,193 @@
 export const blogList = [
   {
+    id: 8,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/ES/24012023_Tuesday_ES.jpg',
+    tradingDate: 'Tuesday January 24, 2023 (ES)',
+    title: 'ES 03-23 | 16:00-17:20 | 2 points ',
+    category: 'ES',
+    subCategory: ['ES 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "+2",
+    totalTicks: "-8",
+    totalPips: "-",
+    winners: "2 (2 points)",
+    losers: "0",
+    breakEven: "0",
+    NumOfTarget: "2 out of 2",
+
+    tradeDescription: "I took two trades but the market was moving fast which made it difficult to get in at the correct levels. It is a sideways market today and it is easy to look for an up- or down bias when price moves fast between support and resistance.",
+
+    summary: "When the market is moving fast like it is with ES, I need to place my entry at the EMA with limit orders, otherwise it is a high probability that I get stopped out.",
+
+    significantLesson: "Trust the EMA when the market shows a micro trend within the larger support and resistance areas.",
+
+    trade1Header:"Trade 1, Short, Target +1 point (+4 ticks)",
+    reasonToTakeTrade1: "Strong previous bear leg down and retest of EMA. Entered with a limit sell order, initial R:R 2:1, actual R:R 1.25:1",
+    trade1: "I felt that the context was for more down, but price was moving fast so it was a little scary to enter, I was a little bit early with my trade and should have entered on the next bar at the high my entry bar. I had my stop above the EMA so the stop loss was at the correct level.",
+
+    trade2Header:"Trade 2, Short, Target +1 point (+4 ticks)",
+    reasonToTakeTrade2: "Lots of tails on top of previous bars and lower highs entered on the test of EMA, context was for more down",
+    trade2: "I entered this trade with confidence that the market would move lower. The entry level was good according to context and I reach target quite quickly. More bear strength in the legs down from the high of the session.",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
+    id: 7,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/6E/24012023_Tuesday_6E.jpg',
+    tradingDate: 'Tuesday January 24, 2023 (6E)',
+    title: '6E 03-23 | 10:20-11:25 | +16 pips ',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "+1.6 points",
+    totalTicks: "-",
+    totalPips: "+16",
+    winners: "2 (+16 pips)",
+    losers: "0 (0 pips)",
+    breakEven: "0",
+    NumOfTarget: "2 out of 2",
+
+    tradeDescription: "Todays session started with bears taking control of the market around 9:30, it looked like they wanted to push down the market to yesterdays low (at 1.08835). I took two trades with good context behind the entries. I missed a perfect MTR (Major Trend Reversal, see the circle). I was focused on getting in with a limit order at the low of the micro trading range and micro double bottom, I missed the stop order entry above the nice high close bull bar. I the market gives me a high close bar (100%) I should take the stop order entry, an entry like that should work out quickly so I could have a smaller stop. The context was perfect for a reversal by the bulls at 11:15.",
+
+    summary: "Nice short session that gave me three trade opportunities, I managed to take 2 out of 3 which is good. I had great R:R on my trades, 2:8 on both trades.",
+
+    significantLesson: "I must trust a setup like the MTR (Major Trend Reversal) and I should not look for it to be perfect, like it was in this session. I also need to trust the high close (100%) bars when then fit with context, these entries should be quick and easy, so I should be able to get my scalp with lesser risk. I always need to focus on the context from both sides (bulls and bears). I should try to see it from both sides before placing a trade.",
+
+    trade1Header:"Trade 1, Short, Target +8 pips",
+    reasonToTakeTrade1: "Bears grinding down, test of EMA, test of previous support not turned resistance.",
+    trade1: "I took the first trade of todays session with at limit order at earlier support now resistance, price tested the EMA, last three swing highs were not able to go above EMA. The context for more down was good, the bears felt stronger than the bulls and each attempt by the bulls to go higher was defended by the bears with strong bear bars.",
+
+    trade2Header:"Trade 2, Short, Target +8 pips",
+    reasonToTakeTrade2: "AIS (Always in short), break out below old support with acceptance, expecting more down",
+    trade2: "Price was vacuumed down to prior support and closed below it. After a three bar stall were the bulls were not able to close above the new resistance level, I entered short for a continuation down. I entered with a limit order. There was a distance to the EMA but I decided that the new resistance level could give me a scalp down. Good trade with a R:R of 2:8. There was no signs in favor for the bulls!",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
     id: 6,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',

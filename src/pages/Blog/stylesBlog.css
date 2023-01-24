@@ -27,6 +27,16 @@
 .blog-wrapper img {
     width: 100%;
 }
+.tradeImage-wrapper {
+    margin: 0;
+}
+/*
+.tradeImage-wrapper img {
+    width: 50%;
+    max-height: 400px;
+    object-fit:contain;
+    object-position: left;
+} */
 .blog-subCategory {
     display: flex;
     justify-content: center;
