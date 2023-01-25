@@ -1,18 +1,112 @@
 export const blogList = [
   {
+    id: 9,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/6E/25012023_Wednesday_6E.jpg',
+    tradingDate: 'Wednesday January 25, 2023',
+    title: '6E 03-23 | 9:45-12:30 | +0.4 points (4 pips) ',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "4",
+    totalPoints: "+0,4",
+    totalTicks: "-",
+    totalPips: "+4",
+    winners: "2 (16 pips)",
+    losers: "2 (-12 pips)",
+    breakEven: "0",
+    NumOfTarget: "2 out of 4",
+
+    tradeDescription: "Traded the London morning session from 9:45. The session started with a bear trend continuation after a sideways market after the first bear leg down after test of daily high (during the Asian session). I was a bit eager to get my first trade going, which is not a great mental state, so I started the session with a loss, overall I had a good feeling for the price action, I just need more confidence to enter, this will come with experience!",
+
+    summary: "Ok session that started of with a loss, I missed to great entries that I was thinking of taking (see the circles). My feel for the session was good and I read price ok. The third entry was a mistake and a hope trade, I didn't trust what I saw, instead I pushed my decision towards what I wanted to happen!",
+
+    significantLesson: "Missed a high probability trade at 10:44, I was waiting for several retests of the resistance level and I also hesitated because I had a loss. I must trust my read, the bull leg up to resistance showed selling pressure from the bears with overlapping bars and tails on top, even though the majority of bars where green bull bars.",
+
+    trade1Header:"Trade 1, Short, stopped out -7 pips",
+    reasonToTakeTrade1: "Second retest of EMA after failed breakout above, strong bear leg down and acceptance below earlier swing lows.",
+    trade1: "I was early and got stopped out with one pip. I also entered after the market gave me a high closing bull bar and a medium strong bear bar closing near the bull bar close. I should have waited before I entered for mor information and a retest of the previous swing high. If I had not been stopped out this would still have been a bad trade, need to be a little more patient before entering to sell in the bull flag in a bear trend.",
+
+    trade2Header:"Trade 2, Short, Target +8pips",
+    reasonToTakeTrade2: "",
+    trade2: "Entered short at the double top sell signal, the bulls retested the old support from below but was not able to close above. I entered with a limit order, I should have entered a little bit higher but overall the entry was ok and moved to target rather easy. Good trade with ok entry, I entered based on context.",
+
+    trade3Header:"Trade 3, Short, stopped out -5 pips",
+    reasonToTakeTrade3: "Third attempt by the bulls to go higher.",
+    trade3: "Entered and got some slippage, I had the entry one pip below the bar but still got filled @ 1.09115. The bulls were a bit to strong on the way up from the swing low and I was thinking of this and therefore had my entry 1 pip below the open of the bar, I should have waited for more information and I should have been more disciplined. This was more of a hope trade than based on context!",
+
+    trade4Header:"Trade 4, short, Target +8 pips",
+    reasonToTakeTrade4: "First test of EMA after bear leg down from trading range resistance.",
+    trade4: "I entered with a limit order at the EMA with a R:R of 2:8, context for more down was good so a good entry! Target was reached without being in negative numbers.",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
     id: 8,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
     
     instrumentCoverImage: '/assets/images/ES/24012023_Tuesday_ES.jpg',
     tradingDate: 'Tuesday January 24, 2023 (ES)',
-    title: 'ES 03-23 | 16:00-17:20 | 2 points ',
+    title: 'ES 03-23 | 16:00-17:20 | +2 points (+8 ticks) ',
     category: 'ES',
     subCategory: ['ES 03-23'],
 
     numOfTrades: "2",
     totalPoints: "+2",
-    totalTicks: "-8",
+    totalTicks: "+8",
     totalPips: "-",
     winners: "2 (2 points)",
     losers: "0",
@@ -475,7 +569,7 @@ export const blogList = [
     
     instrumentCoverImage: '/assets/images/6E/20012023_Friday_6E.jpg',
     tradingDate: 'Friday January 20, 2023 (London morning session)',
-    title: '6E | 10:00-11:30 | +16 pips ',
+    title: '6E 03-23 | 10:00-11:30 | +16 pips ',
     category: '6E',
     subCategory: ['6E 03-23'],
 

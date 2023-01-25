@@ -5,7 +5,7 @@ export const blogList = [
       authorName: 'TraderBrunotte',
       authorAvatar: '/assets/images/authorStefanBlack.png',
       
-      instrumentCoverImage: '/assets/images/ES/18012023_Wednesday_ES0323.jpg',
+      instrumentCoverImage: '/assets/images/stillTrading.jpg',
       tradingDate: 'Tuesday January 18, 2023',
       title: 'ES 03-23 | 15:30-15:45 | -8 points ',
       category: 'ES',

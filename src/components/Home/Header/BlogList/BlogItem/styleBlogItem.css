@@ -82,9 +82,12 @@ background-color: #222529;
     display: flex;
     align-items: flex-end;
   }
-  .myh6 { color:#caa532 }
+  .myh6,
   .myhr { color:#caa532 }
-  .readMore:hover, 
+
+  .readMore:hover {
+    font-weight: 900;
+  } 
   .blogItem-description:hover { 
     font-weight: 500;
     color: whitesmoke;
