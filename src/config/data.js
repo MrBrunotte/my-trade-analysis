@@ -476,7 +476,7 @@ export const blogList = [
     
     instrumentCoverImage: '/assets/images/6E/20012023_Friday2_6E0223.jpg',
     tradingDate: 'Friday, January 20, 2023 (London afternoon session)',
-    title: 'ES 03-23 | 15:15-17:15 | -13 pips ',
+    title: '6E 03-23 | 15:15-17:15 | -13 pips ',
     category: '6E',
     subCategory: ['6E 03-23'],
 

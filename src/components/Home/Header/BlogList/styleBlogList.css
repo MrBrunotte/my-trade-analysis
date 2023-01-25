@@ -15,8 +15,10 @@
     .blogItem-wrapper {
         max-height: 570px;
     }
-    .hideChip,
     .searchBar-wrapper {
+        margin: 1.5rem auto 2rem auto;
+    }
+    .hideChip {
         display:none;
     }
     .myh1 {
