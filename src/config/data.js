@@ -6,7 +6,7 @@ export const blogList = [
     
     instrumentCoverImage: '/assets/images/6E/25012023_Wednesday_6E.jpg',
     tradingDate: 'Wednesday January 25, 2023',
-    title: '6E 03-23 | 9:45-12:30 | +0.4 points (4 pips) ',
+    title: '6E 03-23 | 9:45-12:30 | +0.4 points (+4 pips) ',
     category: '6E',
     subCategory: ['6E 03-23'],
 
