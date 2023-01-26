@@ -1,5 +1,193 @@
 export const blogList = [
   {
+    id: 11,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/ES/27012023_Thursday_ES0323.jpg',
+    tradingDate: 'Thursday January 26, 2023',
+    title: 'ES 03-23 | 13:50-14:10 | +2 points (+8 ticks) ',
+    category: 'ES',
+    subCategory: ['ES 03-23'],
+
+    numOfTrades: "1",
+    totalPoints: "+2",
+    totalTicks: "+8",
+    totalPips: "-",
+    winners: "2 (2 points)",
+    losers: "0",
+    breakEven: "0",
+    NumOfTarget: "1 out of 1",
+
+    tradeDescription: "I saw an opportunity for a good 2 point scalp and I went for it, the ES market was moving slowly but in a bullish upward grind. There was a breakout higher and a failure by the bears to go lower, so the context for a retest was ok.",
+
+    summary: "A quick trade med on a feeling. A bit risky but context was ok for my entry.",
+
+    significantLesson: "When there is an obvious trend then it is ok to take trades like this!",
+
+    trade1Header:"Tr 1, Long, Target +2 points",
+    reasonToTakeTrade1: "Bulls grinding the market up, break out above recent swing high, failure by the bears to take out the strong break out bull bar, I expected one more test of the swing high.",
+    trade1: "The bulls were grinding the market upwards and gave me a breakout above previous swing high, the bears were failing to go below the strong bull candle and I was betting on at least one more retest of the high by the bulls, the R:R was 3:4 and I thought the probability for one more test up was high. I took a chance and it paid off.",
+
+    trade2Header:"",
+    reasonToTakeTrade2: "",
+    trade2: "",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
+    id: 10,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/6E/27012023_Thursday_6E.jpg',
+    tradingDate: 'Thursday January 26, 2023',
+    title: '6E 03-23 | 10:15-14:35 | -1 pip (0.1 point) ',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "5",
+    totalPoints: "-1",
+    totalTicks: "-",
+    totalPips: "-1",
+    winners: "+8 (0.8 points)",
+    losers: "-12 (1.2 points)",
+    breakEven: "2, +3 pips",
+    NumOfTarget: "1 out of 5",
+
+    tradeDescription: "Started todays session at 10:15, the bears had taken control of the market and the context was for more down. During the Asian session the market was in a trading range, the bears tested the low of this trading range at the open of the London session and managed to close with acceptance below at 10:27 giving me a more down bias. the market didn't go lower instead it went sideways.",
+
+    summary: " Both my break-even trades would have hit target, I must be more careful of over-thinking and moving my stop to break-even, I must wait for correct information and bar closes before moving the stop!",
+
+    significantLesson: "Remember that I 'lost' both my break-even trades because both would have reached target! Second, when the market moves sideways, I need to enter at retests of EMA and support/resistance when the context confirms the entries.",
+
+    trade1Header:"Trade 1, Short, Target +8 pips",
+    reasonToTakeTrade1: "Market in bear trend, acceptance below support, retest of EMA.",
+    trade1: "Missed an earlier entry at the small stall below EMA at 10:29. I placed a limit order at the high of the doji bar with a R:R of 1:2. The entry level was just below the EMA and in a profit target area for the bears. The strong bull bar closing on it's high (100%) were probably more bears taking profit than bulls buying to rally up. Good entry and the trade was never in negative numbers, I entered with the target above the most previous swing low with the expectance for the market to test this level again (which it did!)",
+
+    trade2Header:"Trade 2, Short, stopped out -4 pips",
+    reasonToTakeTrade2: "Failure at resistance of trading range",
+    trade2: "Bad entry, miss read the price action and should have waited for a failed breakout above resistance in the trading range. R:R was 1:2. This was not a good trade and I took it because I missed an entry at 10:54. Still in profit for the session but I ignored the signs of more up: higher high and higher low in trading range.",
+
+    trade3Header:"Trade 3, Long, Break-even, 0 pips",
+    reasonToTakeTrade3: "Bulls showed strength, bought just above support in the micro trading range",
+    trade3: "Entered at the bottom of the micro trading range, closed my position when I got a micro gap down after entry. Did not want to risk a bear test and breakout lower, better to exit and wait for new opportunity! The trade would have worked out in hindsight but better to be safe when the market both up or down.",
+
+    trade4Header:"Trade 4, Short, stopped out -7 pips",
+    reasonToTakeTrade4: "Strong breakout below trading range, bigger time frame bias is down and there are two support areas below.",
+    trade4: "It took the bulls 6 bars to take out one strong bear bar, stop at -7 pips above prior support now resistance, the bears closed with acceptance below these areas so I decided to let the trade have a little bit more room. I entered early because of 'fear of mission out'. Context for the trade is a test of previous low and continuation down to second support area around 1.09080. The pullback looked weak by the bulls so I didn't try to exit early. Trade did not work out stopped out below the EMA- It was also an entry far from the EMA so it was extra risky!",
+
+    trade5Header: "Trade 5, Short, Break-even +3 pips",
+    reasonToTakeTrade5: "Test of EMA after strong bear breakout lower.",
+    trade5: "I placed a limit order below the small bars that tested the EMA, got filled with a little slippage. Target is 1 pip above old support and retest of prior swing low. Moved my stop to break-even +1 after a little stall above my target and got stopped out. I got stopped out at break-even and with the slippage on entry I still got +3 pips on this trade.",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
     id: 9,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
