@@ -1,5 +1,193 @@
 export const blogList = [
   {
+    id: 13,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/stillTrading.jpg',
+    tradingDate: 'Friday January 27, 2023',
+    title: 'ES 03-23 | 10:00- |  points ',
+    category: 'ES',
+    subCategory: ['ES 03-23'],
+
+    numOfTrades: "4",
+    totalPoints: "-8",
+    totalTicks: "-16",
+    totalPips: "-",
+    winners: "2 (2 points)",
+    losers: "-2 (4 points)",
+    breakEven: "0",
+    NumOfTarget: "2 out of 4",
+
+    tradeDescription: "",
+
+    summary: "",
+
+    significantLesson: "",
+
+    trade1Header:"Trade 1, Short,",
+    reasonToTakeTrade1: "Downward sloping weak bear trend dancing below EMA.",
+    trade1: "I took a limit sell order at the top of the downward sloping weak bear channel. R:R 5:8, I took a chance to because it looks like the market at least will test the middle of the channel so a high probability trade in a slow market. Moved my target up to +3 ticks because my original target was reached but not filled and then moved back up. I did't want to take a risk since my target was at the low of the previous bars, better to take some profit in an unsure market. I'm back in positive numbers after my first loss in 6E. Good trade management, better to be defensive than offensive in these kind of market conditions. This was the correct decision in hindsight! The bulls pushed the market up above the EMA where I would have been stopped out if I had kept my original stop!",
+
+    trade2Header:"",
+    reasonToTakeTrade2: "",
+    trade2: "",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
+    id: 12,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/stillTrading.jpg',
+    tradingDate: 'Friday January 27, 2023',
+    title: '6E 03-23 | 9:50:30- |  points ',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "4",
+    totalPoints: "-8",
+    totalTicks: "-16",
+    totalPips: "-",
+    winners: "2 (2 points)",
+    losers: "-2 (4 points)",
+    breakEven: "0",
+    NumOfTarget: "2 out of 4",
+
+    tradeDescription: "",
+
+    summary: "",
+
+    significantLesson: "",
+
+    trade1Header:"Trade 1, Long, Stopped out -4 pips.",
+    reasonToTakeTrade1: "Pullback in a bull trend (late)",
+    trade1: "I entered a little early, it was late in the bull breakout trend and the first test of the EMA. I was to eager to catch the retest of the high. I go t stopped out, my R:R was 1:2. I should have waited for more information before trying to enter, I'm starting the session with a small loss and now I need to fight back into positive numbers. Wait for more information to see if the market wants to go up or down. Lots of lower tails on the late part of the bull breakout so probably a retest of the swing high.",
+
+    trade2Header:"",
+    reasonToTakeTrade2: "",
+    trade2: "",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+
+    trade11Header:"",
+    reasonToTakeTrade11: "",
+    trade11: "",
+
+    trade12Header:"",
+    reasonToTakeTrade12: "",
+    trade12: "",
+
+    trade13Header:"",
+    reasonToTakeTrade13: "",
+    trade13: "",
+
+    trade14Header:"",
+    reasonToTakeTrade14: "",
+    trade14: "",
+
+    trade15Header:"",
+    reasonToTakeTrade15: "",
+    trade15: "",
+
+    trade16Header:"",
+    reasonToTakeTrade16: "",
+    trade16: "",
+
+    trade17Header:"",
+    reasonToTakeTrade17: "",
+    trade17: "",
+  },
+  {
     id: 11,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
