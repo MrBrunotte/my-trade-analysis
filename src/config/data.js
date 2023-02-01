@@ -1,12 +1,78 @@
 export const blogList = [
   {
+    id: 17,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/ES/01022023_Wednesday_ES0323.jpg',
+    tradingDate: 'Wednesday February 1, 2023',
+    title: 'ES 03-23 | 9:15-11:00 | +3 points ',
+    category: 'ES',
+    subCategory: ['ES 03-23'],
+
+    numOfTrades: "3",
+    totalPoints: "+3",
+    totalTicks: "+12",
+    totalPips: "-",
+    winners: "3 (+3 points)",
+    losers: "0",
+    breakEven: "0",
+    NumOfTarget: "3 out of 3",
+
+    tradeDescription: "Day 2 of my Apex Funded Trader evaluation account. I traded the London morning session. I changed to a 500 tick and a 250 tick chart because the market is so slow, 2000 tick charts are very hard to trade in this type of market. The 250 tick chart gives a very nice picture of the current context and it also displays good entry levels. I really like the slower London session ES market the US session moves so quickly even with 2000 ticks and it is harder for me to find (and believe) good entry setups.",
+
+    summary: "I hit my target on all my trades, I entered very disciplined today. The range of the bars was not so large so I decided to go for my 1point scalp strategy. In hindsight I could have use the 2point scalp strategy but everything is easy in hindsight! :-) I stopped trading after my third target, I was happy with my result and did not want to be greedy! My goal is to get the funded account and it is not important how many days it takes!",
+
+    significantLesson: "Enter after the market shows med failure, don't be the front runner, if I miss an opportunity wait for the next one! Don't be greedy when you have a nice profit, only continue to trade if the context is really good!",
+
+    trade1Header:"Trade 1 Short, Target +1 point (+4 ticks)",
+    reasonToTakeTrade1: "Trading range, short at resistance, 1 point scalp",
+    trade1: "I changed the chart to a 500 tick chart, I entered and when I got filled I moved to the 250 tick chart to manage the trade. The market was moving sideways and I entered at the top of the range. I changed my strategy to a +1 point scalp because the range of the bars were not that large. The market failed to break out to the downside which may lead to a breakout to the upside. I placed my entry at the top of the previous bear bar hoping that the market would test this area again, my stop was one tick above resistance and my initial R:R was 1:1 and my actual R:R was 1:2.",
+
+    trade2Header:"Trade 1 Short, Target +1 point (+4 ticks)",
+    reasonToTakeTrade2: "Failed breakout above range, strong bear leg and breakout below range, stall and retest of EMA (250 tick chart)",
+    trade2: "The bulls did not manage to breakout above the range, the bears took back control and pushed the market down and below the range support. The bears showed strength and the bear flag looked like a stall and test of the 250 tick chart EMA-14. I placed a limit order with a initial and actual R:R of 1:2. My trade reached target quickly and that is what I need when I take trades like this. If target is not reached quickly I need to try to close my trade at BE or better if possible.",
+
+    trade3Header:"Trade 1 Short, Target +1 point (+4 ticks)",
+    reasonToTakeTrade3: "Failed bull breakout at resistance, micro DT (double top), stronger bear bars compared to bull bars in range, overall context is in favour of more down.",
+    trade3: "This was the fourth test of resistance and I placed a sell stop order when price tested the high of the micro DT, I did this because I was unsure if the market might break out above and then fail, the bears took back control and my target was reached. Initial and actual R:R was 1:2. Every bear leg down needed more bull bars to reach the start of the bear leg in the range, this indicates more selling pressure and that the probability for the bulls to fail at resistance are high.",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
     id: 16,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
     
     instrumentCoverImage: '/assets/images/6E/31012023_Tuesday_6E.jpg',
     tradingDate: 'Tuesday January 31, 2023 | Start Apex Account Evaluation',
-    title: '6E 03-23 | 9:45- | 0 points/pips',
+    title: '6E 03-23 | 9:45-16:00 | +/-0 points',
     category: '6E',
     subCategory: ['6E 03-23'],
 
