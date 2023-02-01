@@ -1,5 +1,203 @@
 export const blogList = [
   {
+    id: 16,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/6E/31012023_Tuesday_6E.jpg',
+    tradingDate: 'Tuesday January 31, 2023 | Start Apex Account Evaluation',
+    title: '6E 03-23 | 9:45- | 0 points/pips',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "4",
+    totalPoints: "0",
+    totalTicks: "-",
+    totalPips: "0",
+    winners: "1 (+10 pips)",
+    losers: "3 (-10 pips)",
+    breakEven: "0",
+    NumOfTarget: "1 out of 4",
+
+    tradeDescription: "First day of my Apex Funded Trader evaluation account. Profit goal is to reach $3000 within a minimum of 7 trading days. My goal is to focus on discipline and taking every trade with context behind the entry and active trade management. I ended up with 0 pips and a commission loss of $-56.64, overall an ok first day and the session gave me some good lessons and pointers on how to trade.",
+
+    summary: "First day with my Apex account resulted in 0 pips and a loss in commissions by -$56.64. I missed a couple of trades and made some mistakes, overall it was an ok session and it is always a little scary to start trading a 'real' account and money. I stopped trading at 13:00 because I had three losses in a row and it is better to start fresh tomorrow again. I pushed up my trailing threshold of my account from $47500 to $ 47703.76. Overall an ok first day! ",
+
+    significantLesson: "I must not look at the PnL, instead I must see every trade as an individual trade and reset my mind after each trade. If I win then the next starts from 0 again and if I lose the next on starts from 0 after I have checked the total PnL including commissions.",
+
+    trade1Header:"Trade 1 Short, Target +1 point (+10 pips)",
+    reasonToTakeTrade1: "Bear flag and test of EMA, multiple resistance areas above.",
+    trade1: "Good trade with context behind the entry and trade management. I placed a limit sell order at the close of the bull test of EMA, the bears took control of the market from the open of the London session and I expected more down. Initial R:R was 4:10 and actual R:R was only 1:5 which is really good. My trade management was to trail the stop if the bears couldn't break below 1.08360, the bears broke below and my target was reached. This trade should work out quickly which it did, if price would have showed resistance to break below 1.08360 I would have to tighten my stop to BE+1, if the market stopped me out it would be better to take the BE trade and wait for the next opportunity!",
+
+    trade2Header:"Trade 2 Short, Stop -3 pips",
+    reasonToTakeTrade2: "MTR (Major Trend Reversal), weak micro bull channel to EMA",
+    trade2: "I was stopped out by 1 pip, but ok entry with context. The market broke below the bull trend line and tested the high, I missed the entry at the high. This is a MTR setup. The bulls failed to push price higher even though there are no resistance areas higher so my read is that the market will go lower again. The R:R was 3:10 so I did not take to much risk. I will look to re-enter short if I get a chance. Missed this trade by 1 pip, but my read was spot on! :-)",
+
+    trade3Header:"Trade 3 Short, Stop -3 pips",
+    reasonToTakeTrade3: "Wrong context to enter, top of trading range but to early",
+    trade3: "Bad trade! Early entry, after strong bull leg up from support. This was one of my 'hope' trades once again. This was not a trade based on context more on hope!",
+
+    trade4Header:"Trade 4 Short, stop -4 pips",
+    reasonToTakeTrade4: "Top of trading range resistance",
+    trade4: "I took this trade because of the failure to close above the trading range resistance, I saw this as a vacuum up to resistance, but I was wrong. It is dangerous to enter on the first weak breakout and the pullback was also weak by the bulls. The context was not for a short trade here, the market will probably test the resistance above at 1.08685 before turning down. ",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
+    id: 15,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/ES/30012023_Monday_ES0323.jpg',
+    tradingDate: 'Monday January 30, 2023',
+    title: 'ES 03-23 | 9:20-12:00 | +/-0 points ',
+    category: 'ES',
+    subCategory: ['ES 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "0",
+    totalTicks: "0",
+    totalPips: "-",
+    winners: "1 (2 points)",
+    losers: "1 (-2 points)",
+    breakEven: "0",
+    NumOfTarget: "1 out of 2",
+
+    tradeDescription: "Remember this trade! A lesson was learned today! Very bad trading... I was able to get back to zero for the day with one more trade. However, this was not a good start to my session and I need to be more careful!",
+
+    summary: "A good lesson today, I need to wait for more information before I enter. I was waiting for a retest of the EMA but still entered before! This was awful trading and I should no better than this!",
+
+    significantLesson: "No 'HOPE' trading",
+
+    trade1Header:"Trade 1 Short, Full stop -2 points",
+    reasonToTakeTrade1: "Very bad trade! Impulsive and early trade!",
+    trade1: "There was to much buying pressure below the previous bars but I still entered, I even moved my entry down 1 tick and got filled. This was a really bad trade and I should have waited for a breakout and retest of the EMA, which was my original plan! Remember this bad trade and move on to the next opportunity!",
+
+    trade2Header:"Trade 2 Short, Target +2 points",
+    reasonToTakeTrade2: "Test of EMA, bulls were not able to push market up in prior two bar rally.",
+    trade2: "OK entry, my stop was above the two bull bar rally and above the EMA, the market had not been able to close above the EMA throughout the session and the bulls looked weak. an entry on the next bar would have been better but this was an ok entry with good context behind the trade.",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
+    id: 14,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/6E/30012023_Monday_6E.jpg',
+    tradingDate: 'Monday January 30, 2023',
+    title: '6E 03-23 | 14:30-16:20 | +0.4 points (+4 pips) ',
+    category: '6E',
+    subCategory: ['6E 03-23'],
+
+    numOfTrades: "3",
+    totalPoints: "+0.4",
+    totalTicks: "-",
+    totalPips: "-+4",
+    winners: "1 (+10 pips)",
+    losers: "1 (-4 pips)",
+    breakEven: "1",
+    NumOfTarget: "1 out of 3",
+
+    tradeDescription: "Market broke below the Asian session trading range and failed with a reversal and breakout above at the end of the Asian session. The London session pushed price above the trading range resistance. I did one bad trade (hope trade) but it was an ok session, I did a lot of other things simultaneously and should have focused more.",
+
+    summary: "The last trade had really good trade management, I moved my stop to BE +1 because if the market did not shoot up to my target, there would be great risk of more down. This was exactly what happened!",
+
+    significantLesson: "Remember the strong bulls up to my loosing trade, better to wait or step aside when this happens. I must not 'hope' trade!",
+
+    trade1Header:"Trade 1 Short, Target +1 point (+10 pips)",
+    reasonToTakeTrade1: "Strong bears at US open, pullback and retest of old resistance level, multiple failures by the bulls at this level.",
+    trade1: "The US open started with a hugh one bear bar fall (-40 pips), the market made a pullback to an old resistance level and had five bars with tails on top, indicating bull weakness. I entered on a limit order with a R:R of 4:10, the trade was never in negative numbers. I was a little lucky to get a fill but I did not enter early, which was good! I let the bulls test and fail before I tried to enter.",
+
+    trade2Header:"Trade 2 Short, Stopped out -6 pips",
+    reasonToTakeTrade2: "Entry at a potential DT",
+    trade2: "Greed pushed me into this trade! I should have placed my entry one tick lower, but I tried to minimize risk, which cost me -6 pips. Bad trade and I tried to front run the market, which is a bad thing. The bulls were once again strong in the two legs up to my entry and I ignored this sign and wanted the market to reverse down again. I need to stay away from these kind of trades, I know better!",
+
+    trade3Header:"Trade 3 Long, Break-even 0 pips",
+    reasonToTakeTrade3: "Pullback to EMA after strong bull rally with acceptance.",
+    trade3: "I entered at the EMA with a R:R of 3:10 nad I moved my stop to Break-even +1 when the bulls couldn't close higher, this was also the second attempt by the bulls so I wanted my trade to work out quickly and if not have a tight stop. I got 1 pip slippage on my stop and got stopped out at break-even. My exit bar and the following bar were great bear entry trades, but they are to close for me to take, it's hard to change direction quickly. The bears took back command of the market.",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
     id: 13,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',

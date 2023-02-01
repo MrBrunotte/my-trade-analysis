@@ -65,33 +65,5 @@ export const blogList = [
       trade10Header:"",
       reasonToTakeTrade10: "",
       trade10: "",
-  
-      trade11Header:"",
-      reasonToTakeTrade11: "",
-      trade11: "",
-  
-      trade12Header:"",
-      reasonToTakeTrade12: "",
-      trade12: "",
-  
-      trade13Header:"",
-      reasonToTakeTrade13: "",
-      trade13: "",
-  
-      trade14Header:"",
-      reasonToTakeTrade14: "",
-      trade14: "",
-  
-      trade15Header:"",
-      reasonToTakeTrade15: "",
-      trade15: "",
-  
-      trade16Header:"",
-      reasonToTakeTrade16: "",
-      trade16: "",
-  
-      trade17Header:"",
-      reasonToTakeTrade17: "",
-      trade17: "",
     },
   ];
