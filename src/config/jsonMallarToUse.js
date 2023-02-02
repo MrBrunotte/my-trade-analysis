@@ -6,7 +6,7 @@ export const blogList = [
       authorAvatar: '/assets/images/authorStefanBlack.png',
       
       instrumentCoverImage: '/assets/images/stillTrading.jpg',
-      tradingDate: 'Tuesday January 18, 2023',
+      tradingDate: 'Tuesday February 18, 2023',
       title: 'ES 03-23 | 15:30-15:45 | -8 points ',
       category: 'ES',
       subCategory: ['ES 03-23'],

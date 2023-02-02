@@ -1,12 +1,78 @@
 export const blogList = [
   {
+    id: 18,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/ES/02022023_Thursday_ES0323.jpg',
+    tradingDate: 'Thursday February 2, 2023',
+    title: 'ES 03-23 | 9:40-14:00 | -0.75 points (-3 ticks)',
+    category: 'ES',
+    subCategory: ['ES 03-23'],
+
+    numOfTrades: "5",
+    totalPoints: "-3",
+    totalTicks: "-12",
+    totalPips: "-",
+    winners: "2 (2 points)",
+    losers: "-3 (1.75 points)",
+    breakEven: "0",
+    NumOfTarget: "2 out of 5",
+
+    tradeDescription: "I took two early trades, where I was a little lucky. Both of these trades could have been losers because I entered early. I had a break over lunch and then started trading again. I totaled 5 trades with 2 winners and 3 losers. I did a couple of mistakes today and ended up in negative numbers. My account is still positive. I stopped trading after my third loss, I didn't want to chase a winner and risk more money, better for me to start fresh tomorrow again.",
+
+    summary: "Started of good but the two winning trades were a bit lucky since I took them in the middle of a trading range. I missed three opportunities that would have given me a nice profit. Another learning day, that cost med some money, I'm still positive in my account. Tha market picked up pace around 13:00 so I believe it is better for me to step aside and not trade until I have gained more experience. My total Net P&L is -$172.25 including commissions -$59.70.",
+
+    significantLesson: "Trust the levels and don't ignore signs of strength or weakness within a sideways market, move up to the 500 tick chart if the market is moving to fast!",
+
+    trade1Header:"Trade 1 Long, Target +1 point (+4 ticks)",
+    reasonToTakeTrade1: "Trading range, prior bull strong leg",
+    trade1: "The market was in a sideways market after a strong two legged bull rally, I entered after the bear failure of the test of EMA, I was lucky with this trade because I entered in the middle of the trading range. I moved my stop up to +1 point and got stopped out, my original target was +2 points. Early entry but good trade management!",
+
+    trade2Header:"Trade 2 Long, Target +1 point (+4 ticks)",
+    reasonToTakeTrade2: "At support in trading range",
+    trade2: "I entered a little early here too, but I kept my stop below resistance, I was lucky that it held and I closed my position at +1 point original target was +2 points.",
+
+    trade3Header:"Trade 3 Long, Stopped out -2 ticks",
+    reasonToTakeTrade3: "Entry at the bottom of a micro trading range, entered at support.",
+    trade3: "I entered at support with a R:R of 1:2 and got stopped out. I entered because of the strong bull micro rally and th high closing bull bar at 12:37. I was stopped out and I was not able to move my stop to BE. The context I was looking from was another breakout higher to test the resistance above.",
+
+    trade4Header:"Trade 4 Short, Stopped out -4 ticks",
+    reasonToTakeTrade4: "Bad trade, entry above support after two missed trades.",
+    trade4: "This was one of my hope trades! I should have known better than to enter short in this area before any confirmation! I believe the context is for more down, but it is to early, the bulls need to fail one more time! We will see if this is the correct bias.",
+
+    trade5Header: "Trade 5 Short, Stopped out -5 ticks",
+    reasonToTakeTrade5: "Short at top of trading range",
+    trade5: "Bad trade! The entry was in an ok location but I failed to see the bull strength, the higher lows and stronger bull legs up in the trading range. This trade took me into negative numbers with a total loss of $172.20",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
     id: 17,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
     
     instrumentCoverImage: '/assets/images/ES/01022023_Wednesday_ES0323.jpg',
     tradingDate: 'Wednesday February 1, 2023',
-    title: 'ES 03-23 | 9:15-11:00 | +3 points ',
+    title: 'ES 03-23 | 9:15-11:00 | +3 points (+12 ticks)',
     category: 'ES',
     subCategory: ['ES 03-23'],
 
