@@ -50,17 +50,19 @@
 .tradeStats {
     margin: 10px 0 50px;
 }
+.reasonToTakeTrade {
+    padding: .75rem 0;
+    font-weight: 400;
+}
 .tradeText {
-    padding: 0 1rem;
     margin-top: 0;
     font-size: 1.3rem;
     color: #a9a9a9;
 }
 .individualTA {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: start;
     text-transform: uppercase;
-    color: #caa532;
 }
 .myWhite {
     color: white;
@@ -68,6 +70,7 @@
 .myh1 {
     margin-top: 50px;
     text-align: start;
+    color: #a9a9a9;
 }
 .myh2 {
     font-size: 3.5rem;
@@ -88,8 +91,10 @@
     font-size: 1.5rem;
     list-style-type: none;
 }
-.myYellow { color:#caa532; }
+.myYellow { color:#caa532; text-transform: uppercase; }
 
+.summary::before {content: 'Session summary: '; color: #caa532; font-weight: 700;}
+.significantLesson::before {content: 'Significant lesson: '; color: #caa532; font-weight: 700;}
 .numOfTrades::before {content: 'Number or trades: '; color: #a9a9a9; }
 .totalPoints::before {content: 'Points: '; color: #a9a9a9; }
 .totalTicks::before {content: 'Ticks: '; color: #a9a9a9; }
@@ -100,6 +105,8 @@
 .losers {color: red; }
 .breakEven::before {content: 'Break-even: '; color: #a9a9a9; }
 .NumOfTarget::before {content: 'Number of target trades: '; color: #a9a9a9; }
+/* .reasonToTakeTrade::before {content: 'Reason to enter: '; color: #caa532; font-weight: 700;}
+.tradeText::before {content: 'Trade context: '; color: #caa532; font-weight: 700;} */
 
 /* .trade1::before { content: 'Trade 1: '; color: #caa532;}
 .trade2::before { content: 'Trade 2: '; color: #caa532;}

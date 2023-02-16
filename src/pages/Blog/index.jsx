@@ -39,6 +39,8 @@ const Blog = () => {
           <img src={blog.instrumentCoverImage} alt='cover' />
 
           <h1 className='myh1'>Trade summary</h1>
+          <p className='myh4 summary'>{blog.summary}</p>
+          <p className='myh4 significantLesson'>{blog.significantLesson}</p>
           <div className='tradeStats'>
           <hr></hr>
             <div className='myListItem numOfTrades'>{blog.numOfTrades}</div>
@@ -52,11 +54,7 @@ const Blog = () => {
             <hr></hr>
           </div>
 
-          <h2 className='myh2 myYellow'>Summary</h2>
-          <p className='summary'>{blog.summary}</p>
-          <h3 className='myh3 myWhite'>Significant lessons from this session</h3>
-          <p className='significantLesson'>{blog.significantLesson}</p>
-          <h2 className='individualTA'>Individual trade analysis</h2>
+          <h2 className='myh2 individualTA'>Session analysis</h2>
           <h4 className='myh4 myYellow'>{blog.trade1Header}</h4>
           <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade1}</h5>
           <p className='tradeText trade1'>{blog.trade1}</p>
@@ -87,27 +85,7 @@ const Blog = () => {
           <h4 className='myh4 myYellow'>{blog.trade10Header}</h4>
           <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade10}</h5>
           <p className='tradeText trade10'>{blog.trade10}</p>
-          <h4 className='myh4 myYellow'>{blog.trade11Header}</h4>
-          <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade11}</h5>
-          <p className='tradeText trade11'>{blog.trade11}</p>
-          <h4 className='myh4 myYellow'>{blog.trade12Header}</h4>
-          <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade12}</h5>
-          <p className='tradeText trade12'>{blog.trade12}</p>
-          <h4 className='myh4 myYellow'>{blog.trade13Header}</h4>
-          <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade13}</h5>
-          <p className='tradeText trade13'>{blog.trade13}</p>
-          <h4 className='myh4 myYellow'>{blog.trade14Header}</h4>
-          <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade14}</h5>
-          <p className='tradeText trade14'>{blog.trade14}</p>
-          <h4 className='myh4 myYellow'>{blog.trade15Header}</h4>
-          <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade15}</h5>
-          <p className='tradeText trade15'>{blog.trade15}</p>
-          <h4 className='myh4 myYellow'>{blog.trade16Header}</h4>
-          <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade16}</h5>
-          <p className='tradeText trade16'>{blog.trade16}</p>
-          <h4 className='myh4 myYellow'>{blog.trade17Header}</h4>
-          <h5 className='myh5 reasonToTakeTrade'>{blog.reasonToTakeTrade17}</h5>
-          <p className='tradeText trade17'>{blog.trade17}</p>
+        
           <Link className='blog-goBack center' to='/'>
             <span> &#8592; Back to all trades...</span>
           </Link>

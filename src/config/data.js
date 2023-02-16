@@ -26,16 +26,16 @@ export const blogList = [
     significantLesson: "",
 
     trade1Header:"Trade 1 Short, trailing stop +18 ticks",
-    reasonToTakeTrade1: "Strong bear open by the bears at London open, selling pressure and weak bulls, support below",
-    trade1: "Nice start to the session. Entry with a sell limit order that was filled in all accounts. The entry was at the top of a micro selling pressure area after failure by the bulls to push the market up. I exited early because I didn't trust my read and missed a great trade, the market fell down to my initial target but I got a nice profit on my first trade for the day. +18 ticks and +$255.84 after commission.",
+    reasonToTakeTrade1: "REASON TO ENTER: Strong bear open by the bears at London open, selling pressure and weak bulls, support below",
+    trade1: "TRADE CONTEXT: Nice start to the session. Entry with a sell limit order that was filled in all accounts. The entry was at the top of a micro selling pressure area after failure by the bulls to push the market up. I exited early because I didn't trust my read and missed a great trade, the market fell down to my initial target but I got a nice profit on my first trade for the day. +18 ticks and +$255.84 after commission.",
 
     trade2Header:"Trade 2 Short, stopped out -17 ticks",
-    reasonToTakeTrade2: "Breakout failure by the bulls above micro trading range, but at support",
-    trade2: "I hoped for a breakout lower and entered short at the resistance area of the micro trading range. I didn't get a chance to move to break-even and got a loss. im back to BE in my account for today.",
+    reasonToTakeTrade2: "REASON TO ENTER: Breakout failure by the bulls above micro trading range, but at support",
+    trade2: "TRADE CONTEXT: I hoped for a breakout lower and entered short at the resistance area of the micro trading range. I didn't get a chance to move to break-even and got a loss. im back to BE in my account for today.",
 
     trade3Header:"Trade 3 Short, stopped out -5 ticks",
-    reasonToTakeTrade3: "Pullback after breakout lower, short at support. low probability trade.",
-    trade3: "I took a chance and I bet on a break below the Asian open low. The risk was low and reward was high, but the probability of this trade was low. I did not work and I got a small loss of -5 ticks. In hindsight not a good trade but another lesson learned.",
+    reasonToTakeTrade3: "REASON TO ENTER: Pullback after breakout lower, short at support. low probability trade.",
+    trade3: "TRADE CONTEXT: I took a chance and I bet on a break below the Asian open low. The risk was low and reward was high, but the probability of this trade was low. I did not work and I got a small loss of -5 ticks. In hindsight not a good trade but another lesson learned.",
 
     trade4Header:"",
     reasonToTakeTrade4: "",
