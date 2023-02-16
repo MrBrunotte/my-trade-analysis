@@ -11,12 +11,12 @@ export const blogList = [
       category: 'ES',
       subCategory: ['ES 03-23'],
   
-      numOfTrades: "4",
-      totalPoints: "-8",
-      totalTicks: "-16",
+      numOfTrades: "",
+      totalPoints: "",
+      totalTicks: "",
       totalPips: "-",
       winners: "2 (2 points)",
-      losers: "-2 (4 points)",
+      losers: "2 (4 points)",
       breakEven: "0",
       NumOfTarget: "2 out of 4",
   

@@ -1,5 +1,269 @@
 export const blogList = [
   {
+    id: 22,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/stillTrading.jpg',
+    tradingDate: 'Thursday February 16, 2023',
+    title: 'NQ 03-23 | 8:45- |  points ',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "",
+    totalPoints: "",
+    totalTicks: "",
+    totalPips: "-",
+    winners: "2 (2 points)",
+    losers: "2 (4 points)",
+    breakEven: "0",
+    NumOfTarget: "2 out of 4",
+
+    tradeDescription: "",
+
+    summary: "Trust my read and don't exit early.",
+
+    significantLesson: "",
+
+    trade1Header:"Trade 1 Short, trailing stop +18 ticks",
+    reasonToTakeTrade1: "Strong bear open by the bears at London open, selling pressure and weak bulls, support below",
+    trade1: "Nice start to the session. Entry with a sell limit order that was filled in all accounts. The entry was at the top of a micro selling pressure area after failure by the bulls to push the market up. I exited early because I didn't trust my read and missed a great trade, the market fell down to my initial target but I got a nice profit on my first trade for the day. +18 ticks and +$255.84 after commission.",
+
+    trade2Header:"Trade 2 Short, stopped out -17 ticks",
+    reasonToTakeTrade2: "Breakout failure by the bulls above micro trading range, but at support",
+    trade2: "I hoped for a breakout lower and entered short at the resistance area of the micro trading range. I didn't get a chance to move to break-even and got a loss. im back to BE in my account for today.",
+
+    trade3Header:"Trade 3 Short, stopped out -5 ticks",
+    reasonToTakeTrade3: "Pullback after breakout lower, short at support. low probability trade.",
+    trade3: "I took a chance and I bet on a break below the Asian open low. The risk was low and reward was high, but the probability of this trade was low. I did not work and I got a small loss of -5 ticks. In hindsight not a good trade but another lesson learned.",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
+    id: 21,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/140223_Tuesday_NQ0323.jpg',
+    tradingDate: 'Tuesday February 14, 2023',
+    title: 'NQ 03-23 | 8:50-9:20 | +37 ticks ',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "+9.25",
+    totalTicks: "+37",
+    totalPips: "-",
+    winners: "1 (+37 ticks",
+    losers: "1 (-8 ticks)",
+    breakEven: "0",
+    NumOfTarget: "1 out of 2",
+
+    tradeDescription: "Second day trading 11 accounts. I started just before the London session open, the market started with a large gap up open in the Asian session and then traded in a sideways direction. I waited for the London session to open and the bears showed more strength than the bulls. I took two trades, one loss and one win. The liquidity to trade 33 contracts is good and I get filled with my limit orders in all accounts. I had some concerns that this would be a problem but it seems that 11 accounts work fine.",
+
+    summary: "Very nice and short session today. My first trade was a small loss and the second trade was a big win. I am happy with the profit today and I will not risk it by trading more today.",
+
+    significantLesson: "Wait for the London session to open (9:00) before taking any trades, see what open bias develops at the open. Don't be afraid to use the limit orders above or below current price if the context is in favour (the tails, selling pressure and weak bulls).",
+
+    trade1Header:"Trade 1 Long, Stopped out -8 ticks",
+    reasonToTakeTrade1: "Asian market was moving up, market testing swing low support, possible test of London session open high",
+    trade1: "I entered long after the London session open, after a strong bull bar and failure by the bears to go below previous swing low. I missed that the bears closed below the Asian high and I was to focused on a test of the previous swing high that the market had moved up during the Asian session. I took a smaller risk and was stopped out on the tick. I should have waited for more information before taking this trade.",
+
+    trade2Header:"Trade 2 Short, Trailing stop +45 ticks",
+    reasonToTakeTrade2: "Several failures by the bulls to go higher, strong resistance above the Asian high, selling pressure above bars.",
+    trade2: "I entered this trade with a stop order, because I was a little scared to us the sell limit at the top of the tails. I was thinking of entering a couple of ticks higher but the entry was ok. There was a lot of things in favour of this entry. Selling pressure above bars, inability by the bulls to push price higher, strong London session open by the bears, bull breakout failure above Asian session high. I trailed my stop down and tightened it after the breakout below the previous swing low and got stopped out. I traded 11 accounts and made a nice profit of $516.68 in each account (+$5683.48 total).",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
+    id: 20,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/130223_Monday_NQ0323.jpg',
+    tradingDate: 'Monday February 13, 2023',
+    title: 'NQ 03-23 | 9:00-12:00 | Break-even ',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "3",
+    totalPoints: "0",
+    totalTicks: "0",
+    totalPips: "-",
+    winners: "1 (+11 ticks)",
+    losers: "1 (-10 ticks)",
+    breakEven: "1",
+    NumOfTarget: "0 out of 3",
+
+    tradeDescription: "First day trading 11 Apex account with the Trade Copier. My initial concern was if I would be able to get filled on all accounts since I'm trading 3 contracts each. The first two trades were all filled.",
+
+    summary: "Ok first day trading multiple accounts Im only down commission. I closed two trades early that would have given me a very nice profit. I need to trust my read better and ignore the fact that I'm trading multiple accounts. ",
+
+    significantLesson: "Big lesson for tomorrow is to ignore that I am trading multiple account, I should only see it as one account. Don't be so quick to move my stop, I must trust my read more!",
+
+    trade1Header:"Trade 1 Long, stopped out -10 ticks",
+    reasonToTakeTrade1: "Bear failure at support",
+    trade1: "The market was in a trading range since the Asian open but in favor of a bull breakout. I entered long after the second bear leg down to support. I was a little early and got stopped out for a $135 loss, I should have reentered at the double bottom a couple of bars later at 9:23. First trade trading with 11 accounts so it was a bit stressful.",
+
+    trade2Header:"Trade 2 Long, Trailing stop +11 ticks",
+    reasonToTakeTrade2: "Breakout above trading range with acceptance and test of prior resistance",
+    trade2: "Entered long after the test of the EMA above the bar that hadn't closed. My stop was below the prior bar. When I got the high close bull bar I moved my stop above the resistance and I got stopped out. I didn't want to risk a failure by the bull. In hindsight this would have been a great trade but I am back in green numbers for the session which is good.",
+
+    trade3Header:"Trade 3 Long, Break-even close 0 ticks",
+    reasonToTakeTrade3: "Breakout above trading range with acceptance after a bear failure at support and strong bull legs up to resistance. ",
+    trade3: "Nice entry but I got a little bit scared so I exited early and once again lost the breakout above. Should have used a trailing stop.",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
+    id: 19,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/100223_Friday_NQ0323.jpg',
+    tradingDate: 'Monday February 10, 2023',
+    title: 'NQ 03-23 | 9:10-9:20 | +5 points ',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "1",
+    totalPoints: "+5",
+    totalTicks: "+20",
+    totalPips: "-",
+    winners: "1 (5 points)",
+    losers: "0",
+    breakEven: "0",
+    NumOfTarget: "1 out of 1",
+
+    tradeDescription: "I am currently trading my Apex evaluation account with one account, I'm trading 3 contracts per trade and my daily target is +$200, If I reach target or above I will stop trading for the day. My only goal is to build my account up to the account goal +$53.000. My Account balance as of today is +$51.008,22 and I am on my 8th day. My goal is to get my funded account before March 1st since that is the next billing day.",
+
+    summary: "My session started around 9:00 (Stockholm GMT+1). The market was in a trading range since about two hours after making the Asian session low. The bias was for a breakout to the upside and test of the higher swing highs and probably the Asian session high. The context of the market was a bias towards the bulls because we had a grinding move up from the Asian session low and then four failed breakouts to the downside by the bears. Every strong bear leg was overtaken by a stronger bull leg in the trading range.",
+
+    significantLesson: "Consider the pre-trading range context, the price action at the trading range boundaries, and battle between the bear and bull legs in the trading range.",
+
+    trade1Header:"Trade 1 Long, Target +5 points",
+    reasonToTakeTrade1: "Strong breakout above trading range, bull flag/stall after acceptance above Asian session SH. Initial R:R 1:1, Actual R:R 13:20",
+    trade1: "The bulls made a strong breakout above the trading range after a previous smaller BO failure at 9:01. The bulls moved price above the trading range resistance, above the first and second Asian session SH. I was waiting for a bull flag or a small stall to enter. I entered with a buy stop limit order above the small stall/flag, my risk was a little high but the context was in favor of a test of the Asian session high. My initial stop was below the Asian SH and first bear bar in the bull leg up. Price was vacuumed up to Asian session high where I had my target for this trade. I made +5 points and +$300 (+$288.06 after commission) on this trade and since I have a daily target of +$200, I am done for the day. The reason for my daily target is that I am planning on trading multiple accounts from Apex, with multiple accounts the profit multiplies with each account and there is no benefit of risking a +$200 profit. With 10 accounts this would have been a +$3000 day!",
+
+    trade2Header:"",
+    reasonToTakeTrade2: "",
+    trade2: "",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
     id: 18,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
