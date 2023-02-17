@@ -27,7 +27,7 @@ export const blogList = [
       significantLesson: "",
   
       trade1Header:"",
-      reasonToTakeTrade1: "",
+      reasonToTakeTrade1: "REASON TO ENTER:",
       trade1: "TRADE CONTEXT: ",
   
       trade2Header:"",

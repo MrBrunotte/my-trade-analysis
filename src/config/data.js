@@ -1,29 +1,95 @@
 export const blogList = [
   {
+    id: 23,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/170223_Friday_NQ0323.jpg',
+    tradingDate: 'Friday February 17, 2023',
+    title: 'NQ 03-23 | 9:05-11:30 | -5,25 points ',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "6",
+    totalPoints: "-5,25",
+    totalTicks: "-21 ticks",
+    totalPips: "",
+    winners: "1 (15 ticks)",
+    losers: "2 (-36 ticks)",
+    breakEven: "1 (+1 tick)",
+    NumOfTarget: "1 out of 6",
+
+    tradeDescription: "Before todays session I traded with Market replay and this was a real eyeopener for me! It is so good to be able to trade my scenarios again and see what I did wrong. I practiced my trades from yesterday and I could really see what I did wrong. I was to focused on the lower tick chart and I need to move up to the 144 tick chart and trade the signals there and then time my entries with the lower 89 tick chart. The session ended in negative numbers again, but I changed my strategy a bit today so it is not the strange. Overall the session felt good, I missed some nice moves because of being a little bit greedy. I will re-trade my session in market replay and see how I should have done!",
+
+    summary: "Ok session price action read wise but my trading was not good! I missed a lot of entries and took some bad ones, I will re-trade this session with market replay today to relive the entries that I took and the once I missed. Overall though, I had my focus on the 144 tick chart instead of the 89 tick chart which was my goal. This works much better for me, I just need to not be greedy with my entries and trade management.",
+
+    significantLesson: "Use the larger tick chart for signals and the smaller tick chart for entries, use selling and buying pressure as an indicator to what level to enter at.",
+
+    trade1Header:"Trade 1 Short, Target +15 ticks",
+    reasonToTakeTrade1: "REASON TO ENTER: Bear context and failure at resistance level, entered at the second failure",
+    trade1: "TRADE CONTEXT: The bears showed strength and the first bear leg gave me a good entry level if the market would test this area again. I entered with sell stop limit order when the market tested the high of the signal bar. My target was at +15 and I did not have time to move it lower so I got stopped out!",
+
+    trade2Header:"Trade 2 Short, stop -11 ticks",
+    reasonToTakeTrade2: "Late in a trade and more hope than entry context.",
+    trade2: "I took this trade because I didn't want to miss out of the bear trend down. No real context to enter so this was a hope trade. No signal bar or anything.",
+
+    trade3Header:"Trade 3 Short, Break-even +1 tick",
+    reasonToTakeTrade3: "Selling pressure and failure by the bulls to push price up.",
+    trade3: "I entered short below the support after seeing selling pressure, moved my stop to BE when the market didn't fall to lower lows. Ok trade management.",
+
+    trade4Header:"Trade 4 Short, stop -6 ticks",
+    reasonToTakeTrade4: "Selling pressure below old support and resistance. ",
+    trade4: "Moved my stop to tight!! There was a lot of selling pressure above bars that I saw but I still moved my trade lower..bad mistake! I entered short at the breakout level by the bears at 9:00",
+
+    trade5Header: "Trade 5 Short -8 ticks",
+    reasonToTakeTrade5: "Doji bar Bad trade!!",
+    trade5: "This trade was a bad trade, I did not think about it or let the market show me that it was good to enter. All I saw was the low closing bear bar..",
+
+    trade6Header:"Trade 6 Short -12 ticks",
+    reasonToTakeTrade6: "Test of previous resistance/support level.",
+    trade6: "Another miss read and more of a hope trade, wrong entry level I must use the sell stop entry instead of the sell stop limit! Last trade of the day since my last three trades were all losers.",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
     id: 22,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
     
-    instrumentCoverImage: '/assets/images/stillTrading.jpg',
+    instrumentCoverImage: '/assets/images/NQ/160223_Thursday_NQ0323.jpg',
     tradingDate: 'Thursday February 16, 2023',
-    title: 'NQ 03-23 | 8:45- |  points ',
+    title: 'NQ 03-23 | 8:45-12:00 |  -12 ticks',
     category: 'NQ',
     subCategory: ['NQ 03-23'],
 
-    numOfTrades: "",
-    totalPoints: "",
-    totalTicks: "",
-    totalPips: "-",
-    winners: "2 (2 points)",
-    losers: "2 (4 points)",
-    breakEven: "0",
-    NumOfTarget: "2 out of 4",
+    numOfTrades: "5",
+    totalPoints: "-3",
+    totalTicks: "-12",
+    totalPips: "",
+    winners: "1 (+18 ticks)",
+    losers: "3 (-30 ticks)",
+    breakEven: "1",
+    NumOfTarget: "1 out of 5",
 
-    tradeDescription: "",
+    tradeDescription: "A negative day with one good trade and bad trade management in some of the trades. I need to lean back from the screen and focus more on the larger tick chart context before trying to enter. There were several nice selling pressure areas that I could have entered at today, but since I was focused on the lower tick chart I missed these signs. ",
 
-    summary: "Trust my read and don't exit early.",
+    summary: "Trust my read and don't exit early. I need to be more patient and wait for the market to test earlier levels, when I look at the chart of today, most of my entries are in the middle of legs!",
 
-    significantLesson: "",
+    significantLesson: "Wait for the market to reach or rest significant levels, don't read the context in the lower tick chart!",
 
     trade1Header:"Trade 1 Short, trailing stop +18 ticks",
     reasonToTakeTrade1: "REASON TO ENTER: Strong bear open by the bears at London open, selling pressure and weak bulls, support below",
@@ -37,13 +103,13 @@ export const blogList = [
     reasonToTakeTrade3: "REASON TO ENTER: Pullback after breakout lower, short at support. low probability trade.",
     trade3: "TRADE CONTEXT: I took a chance and I bet on a break below the Asian open low. The risk was low and reward was high, but the probability of this trade was low. I did not work and I got a small loss of -5 ticks. In hindsight not a good trade but another lesson learned.",
 
-    trade4Header:"",
-    reasonToTakeTrade4: "",
-    trade4: "",
+    trade4Header:"Trade 4 Short, Break-even -1 tick",
+    reasonToTakeTrade4: "REASON TO ENTER: Selling pressure at EMA after strong bear leg down, weak bulls and acceptance below previous swing low.",
+    trade4: "TRADE CONTEXT: Everything was good for this entry. The bears broke below a previous swing low and defended the breakout, the bull weren't able to push the market up again. I entered after selling pressure and a low closing hammer bar at the EMA, all the context was for more down but I still managed to only get a BE trade here! I was to focused on the swing low and did not trust what the market was showing. My original stop was above strong resistance in a bear context so I should have held it.",
 
-    trade5Header: "",
-    reasonToTakeTrade5: "",
-    trade5: "",
+    trade5Header: "Trade 5 Long, Stop -7 ticks",
+    reasonToTakeTrade5: "REASON TO ENTER: Possible MTR (major trend reversal), higher lows and highs ",
+    trade5: "TRADE CONTEXT: Entered at the wrong place, I entered after a strong bear bar after a possible double top sell setup. I should have waited for more information before entering.",
 
     trade6Header:"",
     reasonToTakeTrade6: "",
