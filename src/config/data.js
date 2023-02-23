@@ -1,5 +1,289 @@
 export const blogList = [
   {
+    id: 27,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/230223_Thursday_NQ0323.jpg',
+    tradingDate: 'Thursday February 23, 2023',
+    title: 'NQ 03-23 | 8:45-11:46 | +61 ticks (+15.25 points)',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "1",
+    totalPoints: "+15.25",
+    totalTicks: "+61",
+    totalPips: "",
+    winners: "1 (+15.25 points)",
+    losers: "0",
+    breakEven: "0",
+    NumOfTarget: "1 out of 1",
+
+    tradeDescription: "I was only able to get one trade today, missed some entries but I was very disciplined and did not rush any trades. I followed my new routine with the 377, 144 and 89 tick charts, where I establish the context in the 377 tick chart and set my levels. I establish my entry areas in the 144 tick chart and then I use the 89 tick chart to time my entry. This is a routine that I really like, it fits my trading style and mental attitude.",
+
+    summary: "Good session with a lot of discipline, I did not rush into anything and I waited patiently for my setups. I missed some entries but I felt that I was on top of my PA read during the whole session. I ended the session with a profit of +15.25 points (+$305 which is +$293.06 after commission).",
+
+    significantLesson: "Stay disciplined and don't rush any trades.",
+
+    trade1Header:"Trade 1 Long, Target 1: 2qty +30 ticks, Target 2: 1qty Break-even (+1 tick)",
+    reasonToTakeTrade1: "REASON TO ENTER: Second pullback after a strong bull trend.",
+    trade1: "TRADE CONTEXT: I entered with a buy stop limit order after the bears failed to push the market lower. I prefer to use the buy stop limit order above price instead of the buy limit order below price when going long. I time my entry in the 89 tick chart so that I hopefully won't get filled if the market moves lower. I got filled at a good level with high probability and good context behind it.",
+    riskManagement1: "RISK MANAGEMENT: My first target (+30 ticks) was below the swing high so I patiently waited for the target to get reached. I thought the market would move higher, I did not move my target lower because my T1 was below two highs at the recent swing high. If my target would have been a couple of ticks higher I would have moved it lower to make sure that it would be below a minimum of 2 earlier highs.The market often tests the areas where there are multiple highs/lows.",
+
+    trade2Header:"",
+    reasonToTakeTrade2: "",
+    trade2: "",
+    riskManagement2: "",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+    riskManagement3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+    riskManagement4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+    riskManagement5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+    riskManagement6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+    riskManagement7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+    riskManagement8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+    riskManagement9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+    riskManagement10: "",
+  },
+  {
+    id: 26,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/220223_Wednesday_NQ0323.jpg',
+    tradingDate: 'Wednesday February 22, 2023',
+    title: 'NQ 03-23 | 8:45- 9:30| +126 ticks (+31.5 points)',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "1",
+    totalPoints: "+31.5",
+    totalTicks: "+126",
+    totalPips: "-",
+    winners: "1 (+31.5 points)",
+    losers: "0",
+    breakEven: "0",
+    NumOfTarget: "1 out of 1",
+
+    tradeDescription: "My focus today was to identify the significant levels in the 377 tick chart and then look for the setup in the 144 tick chart and enter in the 89 tick chart. Since I got a good trade and traded with 11 accounts I stopped trading. I don't want to risk the profit of $635, it is better for me to sit back and learn from the markets today and start trading tomorrow again.",
+
+    summary: "Only one trade today! I believe that I'm closer to my trading style when I use the three combined charts (377, 144 and 89 ticks). This gives me levels, entry areas and entry timing. I will probably use the Sell/Buy Stop Limit orders below/above price more, since I think it is hard to set the correct stop when there is so little room between the stop and entry. It is better for me to place a Sell limit order below and If I'm wrong and the market moves higher I will hopefully not get filled. That was my reason for todays entry.",
+
+    significantLesson: "Move my trailing stop after the bar has closed.",
+
+    trade1Header:"Trade 1 Short, Target 1: 2qty +58 ticks, Target 2: 1qty 68 ticks",
+    reasonToTakeTrade1: "REASON TO ENTER: Strong bulls at London open but they failed at the Asian session high, the bears came back strong so I saw this as always in short. Established resistance level in the 377 tick chart.",
+    trade1: "TRADE CONTEXT: I read the context of the market in the 377 tick chart and I could see the the bulls opened strong but was not able to push the market above the Asian high, after the bull failure the bears came back and closed all the bulls with 2 strong bars. The bear flag looked weak and I was looking for an test of the old resistance level, also the high of the second bear bar. This was a sign that the resistance level was back in play. I looked for my entry area in the 144 tick chart and timed my entry in the 89 tick chart.",
+    riskManagement1: "RISK MANAGEMENT: My bias was Always in short and after my entry I was looking for more bear strength and bull weakness. The bears closed below the bull bar before my entry and that was my signal that the micro double top would hold. I actually moved my T1 to +29 ticks because my original T1 was just below the small swing low, I didn't want to risk that the market would touch this level and turn up, better to place my T1 at the low. T1 was filled and I moved my stop 1 tick above the high of that bar, so that my trade was risk free from now. I Moved my stop to a lower swing low below my initial target at +50 ticks, because I saw strength by the bears and I was betting on a breakout and continuation lower. I trailed my last contract after the breakout lower and mys stop was hit for +68 ticks. This trade gave a profit of $635 ($623,06 after commission).",
+
+    trade2Header:"",
+    reasonToTakeTrade2: "",
+    trade2: "",
+    riskManagement2: "",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+    riskManagement3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+    riskManagement4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+    riskManagement5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+    riskManagement6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+    riskManagement7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+    riskManagement8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+    riskManagement9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+    riskManagement10: "",
+  },
+  {
+    id: 25,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/210223_Tuesday_NQ0323.jpg',
+    tradingDate: 'Tuesday February 21, 2023',
+    title: 'NQ 03-23 | 9:30-10:45 | +129 ticks (+32.25 points) ',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "+32,25",
+    totalTicks: "+129",
+    totalPips: "-",
+    winners: "1 (+132)",
+    losers: "1 (-3)",
+    breakEven: "0",
+    NumOfTarget: "1 out of 2",
+
+    tradeDescription: "I came into this session with the losses from the last couple of days in the back of my head. I need to disregard prior results and focus with a blank mental attitude towards the new session. My mental mindset is perfectly reflected in my first trade where I wanted badly to get into the market but with now risk! I should have waited for the second pullback at 9:44 instead! I took a little larger risk today when I entered on my second trade, I did this because I didn't want to not get in on the strong bull trend I believed had started.",
+
+    summary: "A strong bear session that was hard to enter, and after the reversal I missed a good opportunity at 10:13. This day displayed a perfect MTR (Major Trend Reversal), a bear trend line break, higher high and then a failed test of the MTR swing low.",
+
+    significantLesson: "Disregard earlier sessions and when I start a new session I need to start from a neutral mental state, without thinking of earlier losses or winners!",
+
+    trade1Header:"Trade 1 Short, stopped out -3 ticks",
+    reasonToTakeTrade1: "REASON TO ENTER: Strong bear day, test of selling pressure area",
+    trade1: "TRADE CONTEXT: The context for my trade was ok, I really wanted to get in to not miss out on the strong bear trend, I was to tight with my stop (because of prior session losses) which I must stop with! I missed a huge trade and instead got a small loss. The entry level was good but I should have waited since the two bear bars where both high closing bars with a one tick tail on top. The entry level was correct",
+
+    trade2Header:"Trade 2 Long, Target 1 2 contracts +36 ticks, Trailing stop 1 contract +60 ticks",
+    reasonToTakeTrade2: "MTR buy setup, pullback to EMA and strong bull bars.",
+    trade2: "I entered on the close of the strong bull bar after the pullback to the EMA. I entered with stop market order at the high of the bar because I wanted to get in when the bears failed. I kept my stop below my entry bar and swing low after a strong bull leg up from the horizontal bear flag bottom. I saw this a reversal by the bulls after the strong bear trend down. I placed my first stop a the swing high because I believed that that market would go higher but could make a pullback after the swing high test, which it did. I kept my initial stop for the remaining contract and after the breakout above the swing high (with acceptance) I started to trail my stop since I was in positive numbers from today and yesterdays session, did not want to close red today! I exited with a total profit of 132 ticks (+33 points!)",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
+    id: 24,
+    authorName: 'TraderBrunotte',
+    authorAvatar: '/assets/images/authorStefanBlack.png',
+    
+    instrumentCoverImage: '/assets/images/NQ/200223_Monday_NQ0323.jpg',
+    tradingDate: 'Monday February 20, 2023',
+    title: 'NQ 03-23 | 9:00-10:45 | -41 ticks (-10.25 points) ',
+    category: 'NQ',
+    subCategory: ['NQ 03-23'],
+
+    numOfTrades: "2",
+    totalPoints: "-10.25",
+    totalTicks: "-41",
+    totalPips: "-",
+    winners: "0",
+    losers: "2",
+    breakEven: "0",
+    NumOfTarget: "0 out of 2",
+
+    tradeDescription: "I have been in a negative mental streak for the last couple of sessions. I keep taking bad trades because I'm to focused on not loosing money instead of entering on the basis of my read and levels. I have marked the correct selling area for this session, since I got a big loss on my first trade I was a little bit afraid and did not take any of these two possible trades (marked with a red down arrow). The bears were strong from the open so the context for a down day was good!",
+
+    summary: "The bears showed direction at London open and set the context of the session. I entered early today before the bar closed, it looked good when I entered and then the market switched.",
+
+    significantLesson: "Wait for the bar to close and do not enter short after a strong bull bar into a selling area! ",
+
+    trade1Header:"Trade 1 Short, stopped out -19 ticks",
+    reasonToTakeTrade1: "REASON TO ENTER: Market was in a bear strong bear trend, the market made a pullback to previous sell area.",
+    trade1: "TRADE CONTEXT: The context for a short was correct, but I entered after a strong bull pullback bar into selling pressure. I was to focused on getting in and did not consider the strong bull bar. I entered in the correct area but should have waited for more confirmation after the strong bull bar!",
+
+    trade2Header:"Trade 2 Long, Stopped out -12 ticks",
+    reasonToTakeTrade2: "REASON TO ENTER: Bear failure at the double bottom low.",
+    trade2: "TRADE CONTEXT: I was to focused on a reversal here and ignored the strong bear open and also the strong bear leg down after the failed breakout by the bulls. I totally ignored the very strong bear bars that right away took out the strong bull bar, this was a good sign of strong bears and a breakout lower. My trade management was not that good because of my up bias! I could have lost less if I had had my stop higher but since I only saw a bull leg up I gave it some room below the previous swing low at 9:47. I should have taken the two previous bull failures at 9:26 and 10:02 into consideration and instead trying to find a short entry.",
+
+    trade3Header:"",
+    reasonToTakeTrade3: "",
+    trade3: "",
+
+    trade4Header:"",
+    reasonToTakeTrade4: "",
+    trade4: "",
+
+    trade5Header: "",
+    reasonToTakeTrade5: "",
+    trade5: "",
+
+    trade6Header:"",
+    reasonToTakeTrade6: "",
+    trade6: "",
+
+    trade7Header:"",
+    reasonToTakeTrade7: "",
+    trade7: "",
+
+    trade8Header:"",
+    reasonToTakeTrade8: "",
+    trade8: "",
+
+    trade9Header:"",
+    reasonToTakeTrade9: "",
+    trade9: "",
+
+    trade10Header:"",
+    reasonToTakeTrade10: "",
+    trade10: "",
+  },
+  {
     id: 23,
     authorName: 'TraderBrunotte',
     authorAvatar: '/assets/images/authorStefanBlack.png',
